@@ -1,0 +1,32 @@
+Event	ID	Name			Wwise Object Path	Notes
+	879419061	Part_TeslaActivate			\Default Work Unit\Part_TeslaActivate	
+	1804452779	Part_TeleportActivate			\Default Work Unit\Part_TeleportActivate	
+	2207051917	Part_Wheels			\Default Work Unit\Part_Wheels	
+	3203947235	Part_CannonShoot			\Default Work Unit\Part_CannonShoot	
+	3893000692	Part_TeleportCharge			\Default Work Unit\Part_TeleportCharge	
+	4189754346	Part_TeslaCharge			\Default Work Unit\Part_TeslaCharge	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	333625684	SwitchGroup_WheelsState			\Default Work Unit\SwitchGroup_WheelsState	
+
+Switch	ID	Name	Switch Group			Notes
+	555521839	Switch_WheelsOn	SwitchGroup_WheelsState			
+	1191309827	Switch_WheelsOff	SwitchGroup_WheelsState			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	333658764	RTPC_TeleporterCooldown			\Default Work Unit\RTPC_TeleporterCooldown	
+	4252632088	RTPC_WheelsSpeed			\Default Work Unit\RTPC_WheelsSpeed	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	98844060	Sound_Part_TeleportCharge	C:\Users\dafer\Documents\WwiseProjects\DevBots\DevBots\.cache\Windows\SFX\Part_TeslaCharge_67356C43.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_Part_TeleportCharge		74373
+	291086557	Sound_Part_TeleportActivate2	C:\Users\dafer\Documents\WwiseProjects\DevBots\DevBots\.cache\Windows\SFX\Part_TeslaActivate_EB598B7E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_Part_TeleportActivate\Sound_Part_TeleportActivate2		13429
+	518943289	Sound_Part_CannonShoot3	C:\Users\dafer\Documents\WwiseProjects\DevBots\DevBots\.cache\Windows\SFX\weapon_cannon_shot_03_3CADDE39.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_Part_CannonShoot\Sound_Part_CannonShoot3		14466
+	595409929	Sound_Part_TeleportActivate3	C:\Users\dafer\Documents\WwiseProjects\DevBots\DevBots\.cache\Windows\SFX\Part_TeslaActivate_BCA865F4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_Part_TeleportActivate\Sound_Part_TeleportActivate3		7890
+	690510297	Sound_Part_CannonShoot1	C:\Users\dafer\Documents\WwiseProjects\DevBots\DevBots\.cache\Windows\SFX\weapon_cannon_shot_01_3CADDE39.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_Part_CannonShoot\Sound_Part_CannonShoot1		13839
+	734524082	Sound_Part_TeleportActivate5	C:\Users\dafer\Documents\WwiseProjects\DevBots\DevBots\.cache\Windows\SFX\Part_TeslaActivate_EEBCE49D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_Part_TeleportActivate\Sound_Part_TeleportActivate5		8916
+	780043476	Sound_Part_TeleportActivate4	C:\Users\dafer\Documents\WwiseProjects\DevBots\DevBots\.cache\Windows\SFX\Part_TeslaActivate_7C5C865B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_Part_TeleportActivate\Sound_Part_TeleportActivate4		6497
+	869899187	Sound_Part_TeleportActivate1	C:\Users\dafer\Documents\WwiseProjects\DevBots\DevBots\.cache\Windows\SFX\Part_TeslaActivate_F407CD7C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_Part_TeleportActivate\Sound_Part_TeleportActivate1		11159
+	947490474	Sound_Part_CannonShoot4	C:\Users\dafer\Documents\WwiseProjects\DevBots\DevBots\.cache\Windows\SFX\weapon_cannon_shot_04_3CADDE39.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_Part_CannonShoot\Sound_Part_CannonShoot4		15984
+	978436889	Sound_Part_CannonShoot2	C:\Users\dafer\Documents\WwiseProjects\DevBots\DevBots\.cache\Windows\SFX\weapon_cannon_shot_02_3CADDE39.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_Part_CannonShoot\Sound_Part_CannonShoot2		13079
+	986248048	Sound_Part_Wheelsloop	C:\Users\dafer\Documents\WwiseProjects\DevBots\DevBots\.cache\Windows\SFX\wheels_loop_C15B1B88.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_Part_Wheels\Sound_Part_Wheelsloop		23648
+

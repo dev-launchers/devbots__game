@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\dafer\Documents\WwiseProjects\DevBots\DevBots\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\dafer\Documents\WwiseProjects\DevBots\DevBots\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\dafer\Documents\GitHub\devbots__game\devbots__game_WwiseProject\SoundBanks\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\dafer\Documents\WwiseProjects\DevBots\DevBots\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2387649026">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3177314081" Language="SFX" Hash="2603305438">
+			<ObjectPath>\SoundBanks\Default Work Unit\Parts</ObjectPath>
+			<ShortName>Parts</ShortName>
+			<Path>Parts.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3203947235" Name="Part_CannonShoot" ObjectPath="\Events\Default Work Unit\Part_CannonShoot">
+					<IncludedMemoryFiles>
+						<File Id="518943289" Language="SFX">
+							<ShortName>weapon_cannon_shot_03.wav</ShortName>
+							<Path>SFX\weapon_cannon_shot_03_3CADDE39.wem</Path>
+						</File>
+						<File Id="690510297" Language="SFX">
+							<ShortName>weapon_cannon_shot_01.wav</ShortName>
+							<Path>SFX\weapon_cannon_shot_01_3CADDE39.wem</Path>
+						</File>
+						<File Id="947490474" Language="SFX">
+							<ShortName>weapon_cannon_shot_04.wav</ShortName>
+							<Path>SFX\weapon_cannon_shot_04_3CADDE39.wem</Path>
+						</File>
+						<File Id="978436889" Language="SFX">
+							<ShortName>weapon_cannon_shot_02.wav</ShortName>
+							<Path>SFX\weapon_cannon_shot_02_3CADDE39.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1804452779" Name="Part_TeleportActivate" ObjectPath="\Events\Default Work Unit\Part_TeleportActivate">
+					<IncludedMemoryFiles>
+						<File Id="291086557" Language="SFX">
+							<ShortName>Part_TeslaActivate.wav</ShortName>
+							<Path>SFX\Part_TeslaActivate_EB598B7E.wem</Path>
+						</File>
+						<File Id="595409929" Language="SFX">
+							<ShortName>Part_TeslaActivate.wav</ShortName>
+							<Path>SFX\Part_TeslaActivate_BCA865F4.wem</Path>
+						</File>
+						<File Id="734524082" Language="SFX">
+							<ShortName>Part_TeslaActivate.wav</ShortName>
+							<Path>SFX\Part_TeslaActivate_EEBCE49D.wem</Path>
+						</File>
+						<File Id="780043476" Language="SFX">
+							<ShortName>Part_TeslaActivate.wav</ShortName>
+							<Path>SFX\Part_TeslaActivate_7C5C865B.wem</Path>
+						</File>
+						<File Id="869899187" Language="SFX">
+							<ShortName>Part_TeslaActivate.wav</ShortName>
+							<Path>SFX\Part_TeslaActivate_F407CD7C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3893000692" Name="Part_TeleportCharge" ObjectPath="\Events\Default Work Unit\Part_TeleportCharge">
+					<IncludedMemoryFiles>
+						<File Id="98844060" Language="SFX">
+							<ShortName>Part_TeslaCharge.wav</ShortName>
+							<Path>SFX\Part_TeslaCharge_67356C43.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="879419061" Name="Part_TeslaActivate" ObjectPath="\Events\Default Work Unit\Part_TeslaActivate">
+					<IncludedMemoryFiles>
+						<File Id="291086557" Language="SFX">
+							<ShortName>Part_TeslaActivate.wav</ShortName>
+							<Path>SFX\Part_TeslaActivate_EB598B7E.wem</Path>
+						</File>
+						<File Id="595409929" Language="SFX">
+							<ShortName>Part_TeslaActivate.wav</ShortName>
+							<Path>SFX\Part_TeslaActivate_BCA865F4.wem</Path>
+						</File>
+						<File Id="734524082" Language="SFX">
+							<ShortName>Part_TeslaActivate.wav</ShortName>
+							<Path>SFX\Part_TeslaActivate_EEBCE49D.wem</Path>
+						</File>
+						<File Id="780043476" Language="SFX">
+							<ShortName>Part_TeslaActivate.wav</ShortName>
+							<Path>SFX\Part_TeslaActivate_7C5C865B.wem</Path>
+						</File>
+						<File Id="869899187" Language="SFX">
+							<ShortName>Part_TeslaActivate.wav</ShortName>
+							<Path>SFX\Part_TeslaActivate_F407CD7C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4189754346" Name="Part_TeslaCharge" ObjectPath="\Events\Default Work Unit\Part_TeslaCharge">
+					<IncludedMemoryFiles>
+						<File Id="98844060" Language="SFX">
+							<ShortName>Part_TeslaCharge.wav</ShortName>
+							<Path>SFX\Part_TeslaCharge_67356C43.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2207051917" Name="Part_Wheels" ObjectPath="\Events\Default Work Unit\Part_Wheels">
+					<IncludedMemoryFiles>
+						<File Id="986248048" Language="SFX">
+							<ShortName>wheels_loop.wav</ShortName>
+							<Path>SFX\wheels_loop_C15B1B88.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{B616D29C-F77D-422B-85C9-249FB26B38F1}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{9F305D83-A018-44CA-9557-6DD2B0E68524}">
+							<Media>
+								<File Id="986248048"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="333658764" Name="RTPC_TeleporterCooldown" ObjectPath="\Game Parameters\Default Work Unit\RTPC_TeleporterCooldown"/>
+				<GameParameter Id="4252632088" Name="RTPC_WheelsSpeed" ObjectPath="\Game Parameters\Default Work Unit\RTPC_WheelsSpeed"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="333625684" Name="SwitchGroup_WheelsState" ObjectPath="\Switches\Default Work Unit\SwitchGroup_WheelsState">
+					<Switches>
+						<Switch Id="555521839" Name="Switch_WheelsOn" ObjectPath="\Switches\Default Work Unit\SwitchGroup_WheelsState\Switch_WheelsOn"/>
+						<Switch Id="1191309827" Name="Switch_WheelsOff" ObjectPath="\Switches\Default Work Unit\SwitchGroup_WheelsState\Switch_WheelsOff"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
