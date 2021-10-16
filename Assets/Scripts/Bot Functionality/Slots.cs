@@ -7,11 +7,11 @@ using UnityEngine;
 public class Slots
 {
     [Header("These are the game objects used as slots on the bot where the bot's botpart gameobject's belong")]
-    public GameObject top;
-    public GameObject side;
-    public GameObject bottom;
-    public GameObject back;
-    
+    public GameObject Top;
+    public GameObject Side;
+    public GameObject Bottom;
+    public GameObject Back;
+
     //List of all the slots
     private List<GameObject> slots;
 
@@ -24,14 +24,18 @@ public class Slots
     private void SetSlots()
     {
         slots = new List<GameObject>();
-        slots.Add(top);
-        slots.Add(side);
-        slots.Add(bottom);
-        slots.Add(back);
+        slots.Add(Top);
+        slots.Add(Side);
+        slots.Add(Bottom);
+        slots.Add(Back);
     }
 
- 
-    //Get the slot gameobject by using the slotpositioon enum
+
+    /// <summary>
+    /// Get the slot gameobject by using the slotpositioon enum
+    /// </summary>
+    /// <param name="slotPosition"></param>
+    /// <returns></returns>
     private GameObject GetSlot(SlotPosition slotPosition)
     {
         GameObject slot = default(GameObject);
@@ -39,16 +43,16 @@ public class Slots
         switch (slotPosition)
         {
             case SlotPosition.Top:
-                slot = top;
+                slot = Top;
                 break;
             case SlotPosition.Side:
-                slot = side;
+                slot = Side;
                 break;
             case SlotPosition.Bottom:
-                slot = bottom;
+                slot = Bottom;
                 break;
             case SlotPosition.Back:
-                slot = back;
+                slot = Back;
                 break;
             default:
                 break;
@@ -57,7 +61,11 @@ public class Slots
         return slot;
     }
 
-    //check to see if botpart is in slot position
+    /// <summary>
+    /// check to see if botpart is in slot position
+    /// </summary>
+    /// <param name="slotPosition"></param>
+    /// <returns></returns>
     public bool IsBotPartInSlot(SlotPosition slotPosition)
     {
         //get slot using slot position
@@ -65,7 +73,11 @@ public class Slots
         return slot.GetComponent<BotPart>();
     }
 
-    //Set a new botpart in the botpart slot 
+    /// <summary>
+    /// Set a new botpart in the botpart slot
+    /// </summary>
+    /// <param name="slotPosition"></param>
+    /// <param name="botPartGameObject"></param>
     public void SetSlotBotPart(SlotPosition slotPosition, GameObject botPartGameObject)
     {
         //get slot using slot position
@@ -81,13 +93,21 @@ public class Slots
 
     }
 
-    //Get the botpart gameobject located at this slot
+    /// <summary>
+    /// Get the botpart gameobject located at this slot
+    /// </summary>
+    /// <param name="slot"></param>
+    /// <returns></returns>
     private GameObject GetSlotBotPartGameObject(GameObject slot)
     {
         return slot.transform.GetChild(0).gameObject;
     }
 
-    //Get the  botpart located at this slot
+    /// <summary>
+    /// Get the  botpart located at this slot
+    /// </summary>
+    /// <param name="slotPosition"></param>
+    /// <returns></returns>
     public BotPart GetSlotBotPart(SlotPosition slotPosition)
     {
         GameObject slot = GetSlot(slotPosition);

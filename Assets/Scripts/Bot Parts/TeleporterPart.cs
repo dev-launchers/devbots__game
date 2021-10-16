@@ -15,7 +15,7 @@ public class TeleporterPart : BotPart
         rb = gameObject.GetComponentInParent<Rigidbody2D>();
         sensor = GetComponentInParent<BotSensor>();
         controller = GetComponentInParent<BotController>();
-        timer = GetCoolDown();
+        _timer = GetCoolDown();
     }
 
     public void MoveStep() {

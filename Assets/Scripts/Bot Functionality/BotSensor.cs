@@ -1,71 +1,84 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
+/// <summary>
+/// This class is is used to provide sensory methods for the bot.
+/// </summary>
 public class BotSensor : MonoBehaviour
 {
-    private GameObject nearestBot;
-    private GameObject[] activeBots;
-    private AudioManager audioManager;
-    private Rigidbody2D rb;
-    private int enemyLayer;
-    private bool isPlayer;
+    private GameObject _nearestBot;
+    private GameObject[] _activeBots;
+    private AudioManager _audioManager;
+    private Rigidbody2D _rb;
+    private int _enemyLayer;
+    private bool _isPlayer;
 
-    public void Awake() {
-        activeBots = GameObject.FindGameObjectsWithTag("Bot");
-        rb = GetComponent<Rigidbody2D>();
+    public void Awake()
+    {
+        _activeBots = GameObject.FindGameObjectsWithTag("Bot");
+        _rb = GetComponent<Rigidbody2D>();
         SenseStep(); //In multi-bot fights, needs to be called in Update
 
         if (gameObject.layer == 9) { //This bot is Player
-            isPlayer = true;
-            enemyLayer = 10;
+            _isPlayer = true;
+            _enemyLayer = 10;
         }
         else { //This bot is Opponent
-            isPlayer = false;
-            enemyLayer = 9;
+            _isPlayer = false;
+            _enemyLayer = 9;
         }
     }
 
-    public int GetEnemyLayer() {
-        return enemyLayer;
+    public int GetEnemyLayer()
+    {
+        return _enemyLayer;
     }
 
-    public GameObject GetNearestSensedBot() {
+    public GameObject GetNearestSensedBot() 
+    {
         UpdateActiveBots();
-        return nearestBot;
+        return _nearestBot;
     }
 
-    public Vector2 GetNearestSensedBotPosition() {
+    public Vector2 GetNearestSensedBotPosition() 
+    {
         UpdateActiveBots();
-        return nearestBot.transform.position;
+        return _nearestBot.transform.position;
     }
 
-    // Returns -1 if left, and 1 if right
-    public int GetNearestSensedBotDirection() {
+    /// <summary>
+    /// Returns -1 if left, and 1 if right
+    /// </summary>
+    /// <returns></returns>
+    public int GetNearestSensedBotDirection()
+    {
         UpdateActiveBots();
         int enemyDirection = 1;
         //Find if enemy to the left or right
-        if (gameObject.transform.position.x > nearestBot.transform.position.x) {
+        if (gameObject.transform.position.x > _nearestBot.transform.position.x) {
             enemyDirection = -1;
         }
         return enemyDirection;
     }
 
-    /*GetNearestSensedBotAbove returns 1 if nearestBot is above,
-    *    and -1 if below.
-    * @param xPosBuffer is a valid float representing the maximum distance
-    *    from the left or right of the players center mass.
-    * @param yPosBuffer is a valid float representing the minimum distance
-    *    above player center mass for enemy bot to be considerd above.
-    */
+
+    /// <summary>
+    ///  GetNearestSensedBotAbove returns 1 if nearestBot is above,
+   ///    and -1 if below.
+    /// @param xPosBuffer is a valid float representing the maximum distance
+    ///    from the left or right of the players center mass.
+    /// @param yPosBuffer is a valid float representing the minimum distance
+    ///    above player center mass for enemy bot to be considerd above.
+    /// </summary>
+    /// <param name="xMaxPos"></param>
+    /// <param name="yMinPos"></param>
+    /// <returns></returns>
     public int GetNearestSensedBotAbove(float xMaxPos, float yMinPos)
     {
         int enemyBotAbove = -1; //Enemy bot is NOT above player bot. 
         float playerYPos = gameObject.transform.position.y;
         float playerXPos = gameObject.transform.position.x;
-        float enemyYPos  = nearestBot.transform.position.y;
-        float enemyXPos  = nearestBot.transform.position.x;
+        float enemyYPos  = _nearestBot.transform.position.y;
+        float enemyXPos  = _nearestBot.transform.position.x;
 
         UpdateActiveBots();
         
@@ -81,27 +94,31 @@ public class BotSensor : MonoBehaviour
         return enemyBotAbove;
     }
 
-    public void SenseStep() {
+    public void SenseStep() 
+    {
         //Updates the current "Nearest Bot," always the enemy in 1v1, closest enemy in multibot
-        foreach(GameObject activeBot in activeBots) {
+        foreach(GameObject activeBot in _activeBots) {
             if (activeBot != this.gameObject) {
-                nearestBot = activeBot;
+                _nearestBot = activeBot;
             }
         }
     }
 
-    private void UpdateActiveBots() {
-        if(nearestBot == null) { //This is a temporary workaround and needs to be fixed so that the sensor activates and gets bot list at proper time
-            activeBots = GameObject.FindGameObjectsWithTag("Bot");
+    private void UpdateActiveBots() 
+    {
+        if(_nearestBot == null) { //This is a temporary workaround and needs to be fixed so that the sensor activates and gets bot list at proper time
+            _activeBots = GameObject.FindGameObjectsWithTag("Bot");
             SenseStep();
         }
     }
     
-    public Vector3 GetPosition() {
-        return rb.position;
+    public Vector3 GetPosition() 
+    {
+        return _rb.position;
     }
 
-    public bool IsPlayer() {
-        return isPlayer;
+    public bool IsPlayer() 
+    {
+        return _isPlayer;
     }
 }

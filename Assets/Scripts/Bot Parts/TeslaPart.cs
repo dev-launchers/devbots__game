@@ -23,7 +23,7 @@ public class TeslaPart : BotPart
         sensor = GetComponentInParent<BotSensor>();
         controller = GetComponentInParent<BotController>();
         enemyLayer = sensor.GetEnemyLayer();
-        timer = GetCoolDown();
+        _timer = GetCoolDown();
     }
 
     public void AttackStep()

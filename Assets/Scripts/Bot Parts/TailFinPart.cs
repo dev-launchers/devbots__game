@@ -1,29 +1,30 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-
+/// <summary>
+///  This class is a type of botpart used on a bot. Lunges bot forward and creates a large sweep attack based on cooldown.
+/// </summary>
 public class TailFinPart : BotPart
-{
-    [Tooltip("Amount of backforce to apply")]
-    [SerializeField] private Vector2 backThrust = default(Vector2);//Amount of backforce to apply
-    private WheelPart wheelPart;//Wheel part script attatched to this bot
-    private TeleporterPart teleporterPart;//Teleporter part attatched to this bot
-    private Rigidbody2D rb;
-    private BotSensor sensor;
-    private BotController controller;
-    
+{ 
     [SerializeField] private bool isRunning;
+    [Tooltip("Amount of backforce to apply")]
+    [SerializeField] private Vector2 _backThrust = default(Vector2);//Amount of backforce to apply
+    private WheelPart _wheelPart;//Wheel part script attatched to this bot
+    private TeleporterPart _teleporterPart;//Teleporter part attatched to this bot
+    private Rigidbody2D _rb;
+    private BotSensor _sensor;
+    private BotController _controller;
+    
+   
 
     public void Start()
     {
 
-        rb = gameObject.GetComponentInParent<Rigidbody2D>();
-        sensor = GetComponentInParent<BotSensor>();
-        controller = GetComponentInParent<BotController>();
+        _rb = gameObject.GetComponentInParent<Rigidbody2D>();
+        _sensor = GetComponentInParent<BotSensor>();
+        _controller = GetComponentInParent<BotController>();
         //wheelPart = transform.parent.GetComponentInChildren<WheelPart>();
         //teleporterPart = transform.parent.GetComponentInChildren<TeleporterPart>();
-        timer = GetCoolDown();  
+        _timer = GetCoolDown();  
     }
 
     public void BackStep()
@@ -35,9 +36,9 @@ public class TailFinPart : BotPart
                 ResetCooldownTimer();
 
                 //Use add relative force to rigidbody to thrust bot backwards. 
-                Vector2 appliedForce = new Vector2(-backThrust.x * sensor.GetNearestSensedBotDirection(), backThrust.y);
-                rb.AddRelativeForce(appliedForce, ForceMode2D.Impulse);
-                controller.PlayAudio("Move");
+                Vector2 appliedForce = new Vector2(-_backThrust.x * _sensor.GetNearestSensedBotDirection(), _backThrust.y);
+                _rb.AddRelativeForce(appliedForce, ForceMode2D.Impulse);
+                _controller.PlayAudio("Move");
             }
         }
     }

@@ -1,32 +1,34 @@
 using UnityEngine;
-
+/// <summary>
+/// This class is used as a base class for the different types of botparts
+/// </summary>
 public abstract class BotPart : MonoBehaviour
 {
-    [SerializeField] private float coolDown;
-    protected float timer;
+    [SerializeField] private float _coolDown;
+    protected float _timer;
     
     public abstract void BotPartUpdate();
     abstract public void SetState(State state);
     //[SerializeField] abstract private bool isRunning;
 
     public float GetCoolDownTimer(){ 
-        return timer;
+        return _timer;
     }
 
     public float GetCoolDown() {
-        return coolDown;
+        return _coolDown;
     }
 
     public bool IsPartCoolingDown() {
-        return timer > 0;
+        return _timer > 0;
     }
 
     private void AdvanceCooldownTimer() {
-        timer -= Time.deltaTime;
+        _timer -= Time.deltaTime;
     }
 
     public void ResetCooldownTimer() {
-        timer = coolDown;
+        _timer = _coolDown;
     }
 
     private void Update() {

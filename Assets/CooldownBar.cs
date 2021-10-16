@@ -19,7 +19,7 @@ public class CooldownBar : MonoBehaviour
         //get the botcontroller located in HealthAndCDHoolder script
         botController = transform.parent.GetComponentInParent<HealthAndCDHolder>().GetBotController();
         //get the botpart
-        botPart = botController.slots.GetSlotBotPart(slotPosition);
+        botPart = botController.Slots.GetSlotBotPart(slotPosition);
         
     }
 

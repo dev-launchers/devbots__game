@@ -1,17 +1,18 @@
 ﻿using System;
-using UnityEngine.Audio;
 using UnityEngine;
-
+/// <summary>
+/// Thiss class is used to handle all audio functionality
+/// </summary>
 public class AudioManager : MonoBehaviour {
 
-    public Sound[] sounds;
+    public Sound[] Sounds;
 
-    public static AudioManager instance;
+    public static AudioManager Instance;
 
     void Awake() {
 
-        if (instance == null) { //Avoids duplicate AudioManagers
-            instance = this;
+        if (Instance == null) { //Avoids duplicate AudioManagers
+            Instance = this;
         }
         else {
             Destroy(gameObject);
@@ -19,7 +20,7 @@ public class AudioManager : MonoBehaviour {
 
         DontDestroyOnLoad(this);
 
-        foreach (Sound s in sounds) {
+        foreach (Sound s in Sounds) {
             s.source = gameObject.AddComponent<AudioSource>();
             s.source.clip = s.clip;
 
@@ -34,7 +35,7 @@ public class AudioManager : MonoBehaviour {
     }
 
     public void Play(string name) {
-        Sound s = Array.Find(sounds, sound => sound.name == name);
+        Sound s = Array.Find(Sounds, sound => sound.name == name);
         if (s == null) {
             Debug.LogWarning("Sound " + name + " not found in AudioManager!");
             return;

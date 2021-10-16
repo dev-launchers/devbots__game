@@ -1,35 +1,39 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+///  This class is a type of botpart used on a bot. Explodes when in close range of the enemy bot, dealing massive damage to opponent and some to self, and causes huge knockback.
+/// </summary>
 public class SelfDetonatorPart : BotPart
 {
     //TODO: create "private Animator sideDetonatorAnimation;"
     // Animates the side detonator part when attack is active
-    [SerializeField] private Transform attackPoint;
+    [SerializeField] private Transform _attackPoint;
     // References the attack point of the side detonator in the scene.
 
-    [SerializeField] private float attackRange = 0.0f;
+    [SerializeField] private float _attackRange = 0.0f;
     // Range for attack to initiate.
     
-    [SerializeField] private float knockBackStrength;
-    [SerializeField] private float upwardForce;
-    [SerializeField] private LayerMask enemyLayers;
-    
-    // Inherited from BotPart
+    [SerializeField] private float _knockBackStrength;
+    [SerializeField] private float _upwardForce;
+    [SerializeField] private LayerMask _enemyLayers;
+
+    /// <summary>
+    /// Inherited from BotPart
+    /// </summary>
+    /// <param name="state"></param>
     override public void SetState(State state)
     {
         return;
     }
 
 
-    // Side Detonator Attack
+    
     public void SelfDetonatorAttack()
     {
         // Detect enemy in range of attack.
-        Collider2D enemyCollider2D = Physics2D.OverlapCircle(attackPoint.position,
-                                                   attackRange,
-                                                   enemyLayers);
+        Collider2D enemyCollider2D = Physics2D.OverlapCircle(_attackPoint.position,
+                                                   _attackRange,
+                                                   _enemyLayers);
         if (enemyCollider2D)
         {
             if (!IsPartCoolingDown()){
@@ -46,8 +50,8 @@ public class SelfDetonatorPart : BotPart
                 if (controller != null)
                 {
                     Vector2 direction = sensor.GetPosition() - transform.position;
-                    controller.ApplyForce((direction.normalized * knockBackStrength)
-                                         +(new Vector2(0.0f,upwardForce)));
+                    controller.ApplyForce((direction.normalized * _knockBackStrength)
+                                         +(new Vector2(0.0f,_upwardForce)));
                 }
             }
         }
@@ -55,8 +59,8 @@ public class SelfDetonatorPart : BotPart
     
     void OnDrawGizmosSelected()
     {
-        if (attackPoint == null) return;
-        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+        if (_attackPoint == null) return;
+        Gizmos.DrawWireSphere(_attackPoint.position, _attackRange);
     }
 
     public override void BotPartUpdate()
