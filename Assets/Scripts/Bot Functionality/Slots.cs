@@ -93,5 +93,10 @@ public class Slots
         GameObject slot = GetSlot(slotPosition);
         return slot.GetComponentInChildren<BotPart>();
     }
+    //Get the  botpart located at this slot
+    public BotPart GetSlotBotPart(GameObject slot)
+    {
+        return slot.GetComponentInChildren<BotPart>();
+    }
 
 }

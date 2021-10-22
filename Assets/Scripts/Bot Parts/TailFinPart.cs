@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 public class TailFinPart : BotPart
 {
@@ -13,7 +13,8 @@ public class TailFinPart : BotPart
     private BotSensor sensor;
     private BotController controller;
     
-    [SerializeField] private bool isRunning;
+
+
 
     public void Start()
     {

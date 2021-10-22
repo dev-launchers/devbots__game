@@ -10,7 +10,7 @@ public class DrillBotPart : BotPart
     [SerializeField] public float attackRange = 0.0f; // Range for attack to initiate.
 
     [SerializeField] public LayerMask enemyLayers;
-    [SerializeField] private bool isRunning;
+
     // Used to determine which objects are enemies by assigning all ememies to a layer using a layermask.
 
     // Inherited from BotPart

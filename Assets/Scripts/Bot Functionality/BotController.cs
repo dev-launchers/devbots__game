@@ -57,6 +57,7 @@ public class BotController : MonoBehaviour
         {
             FaceEnemy();
         }
+
     }
     /// <summary>
     /// Method called when a scene is loaded
@@ -65,18 +66,41 @@ public class BotController : MonoBehaviour
     /// <param name="loadSceneMode"></param>
     private void OnSceneLoaded(Scene scene,LoadSceneMode loadSceneMode)
     {
-        //check new loaded scene's name
-if (scene.name == "Main Menu Scene" || scene.name == "Bot Customize Scene"|| scene.name == "Combat")
+        if (sensor.IsPlayer())               
         {
-            //activate this bot
-            gameObject.SetActive(true);
+
+
+            //check new loaded scene's name
+            switch (scene.name)
+            {
+                case "Main Menu Scene":
+                case "Bot Customize Scene":
+                case "Combat":
+                    //activate this bot
+                    gameObject.SetActive(true);
+
+                    break;
+                case "Marketplace Scene":
+                case "Settings Scene":
+                case "Victory Scene":
+                case "Lose Scene":
+                    //deactivate this bot
+                    gameObject.SetActive(false);
+                    break;
+            }
+        }
+        if (scene.name == "Main Menu Scene" || scene.name == "Bot Customize Scene")
+        {
             //set bot's position to the botStartPos gameobjects position
             transform.position = GameObject.Find("botStartPos").transform.position;
+            //freeze this bots gameobject
+            rb.constraints = RigidbodyConstraints2D.FreezeAll;
         }
-        else if (scene.name == "Marketplace Scene"|| scene.name == "Settings Scene")
+        else
         {
-            //deactivate this bot
-            gameObject.SetActive(false);
+            //unfreeze this bots gameobject
+            rb.constraints = RigidbodyConstraints2D.None;
+            rb.constraints = RigidbodyConstraints2D.FreezeRotation;
         }
     }
 
@@ -112,6 +136,8 @@ if (scene.name == "Main Menu Scene" || scene.name == "Bot Customize Scene"|| sce
         DamageTakenEvent.Invoke();
         if (HP <= 0.0f)
         {
+          
+
             //start botdestroyed coroutine when bot reaches zero health
             StartCoroutine(BotDestroyed());
 
@@ -133,7 +159,7 @@ if (scene.name == "Main Menu Scene" || scene.name == "Bot Customize Scene"|| sce
     public IEnumerator BotDestroyed()
     {
         //run death animation here and change deathAnimationTime in the inspector
-
+  Debug.Log("dead");
         //delay to play animation before changing scene
         yield return new WaitForSeconds(deathAnimationTime);
 

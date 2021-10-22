@@ -16,8 +16,22 @@ public class CooldownBar : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+      
+    }
+    private void OnEnable()
+    {
+        Debug.Log(transform.parent.GetComponentInParent<HealthAndCDHolder>().name);
+        //Define which bot is which
+        if (transform.parent.GetComponentInParent<HealthAndCDHolder>().isPlayerHolder)
+        {
+            botController = SceneHandler.GetPlayerBotControllerInScene();
+        }
+        else
+        {
+            botController = SceneHandler.GetEnemyBotControllerInScene();
+        }
         //get the botcontroller located in HealthAndCDHoolder script
-        botController = transform.parent.GetComponentInParent<HealthAndCDHolder>().GetBotController();
+        //botController = transform.parent.GetComponentInParent<HealthAndCDHolder>().GetBotController();
         //get the botpart
         botPart = botController.slots.GetSlotBotPart(slotPosition);
         //check if bot part does not exists in slot
@@ -33,7 +47,6 @@ public class CooldownBar : MonoBehaviour
             }
         }
     }
-
     // Update is called once per frame
     void Update()
     {

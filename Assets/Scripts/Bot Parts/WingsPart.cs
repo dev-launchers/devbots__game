@@ -12,7 +12,6 @@ public class WingsPart : BotPart
     private BotSensor sensor;
     private BotController controller;
 
-    [SerializeField] private bool isRunning;
 
     public void Start()
     {

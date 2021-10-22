@@ -10,7 +10,6 @@ public class SwordPart : BotPart
     [SerializeField] private float damage = default(float);
     [SerializeField] private float knockback = default(float);
     [SerializeField] private Vector2 thrustForce = default(Vector2);
-    [SerializeField] private bool isRunning;
     private int enemyLayer;
 
     private Animator swordAnimator;//Animator used for sword rotation
@@ -50,7 +49,7 @@ public class SwordPart : BotPart
                 Collider2D collision = Physics2D.OverlapCircle(attackPos, attackDistance); 
                 //Needs to attack only in front using swordPos
 
-                if (collision.gameObject.layer == enemyLayer)
+                if (!collision.gameObject.GetComponent<BotSensor>().IsPlayer())
                 {
                     print("collision");
                     BotController collisionController = collision.transform.GetComponent<BotController>();

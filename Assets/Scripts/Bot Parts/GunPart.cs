@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GunPart : BotPart
 {
@@ -15,7 +16,7 @@ public class GunPart : BotPart
     private BotSensor sensor;
     private BotController controller;
 
-    [SerializeField] private bool isRunning;
+ 
 
         // Start is called before the first frame update
     void Start()

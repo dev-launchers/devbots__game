@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TeslaPart : BotPart
 {
@@ -11,12 +12,13 @@ public class TeslaPart : BotPart
     private BotSensor sensor;
     private BotController controller;
     private int enemyLayer;
-    [SerializeField] private bool isRunning;
+
 
     public override void SetState(State state)
     {
         isRunning = state.isActive;
     }
+
 
     void Start()
     {

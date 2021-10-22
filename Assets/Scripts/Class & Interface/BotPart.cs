@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public abstract class BotPart : MonoBehaviour
 {
@@ -7,7 +8,7 @@ public abstract class BotPart : MonoBehaviour
     
     public abstract void BotPartUpdate();
     abstract public void SetState(State state);
-    //[SerializeField] abstract private bool isRunning;
+    [SerializeField] protected bool isRunning;
 
     public float GetCoolDownTimer(){ 
         return timer;
@@ -29,7 +30,8 @@ public abstract class BotPart : MonoBehaviour
         timer = coolDown;
     }
 
-    private void Update() {
+
+private void Update() {
         AdvanceCooldownTimer();
         BotPartUpdate();
     }
