@@ -104,7 +104,6 @@ public class BotController : MonoBehaviour
         }
     }
 
-
     private void FaceEnemy()
     {
         foreach (Transform childtransform in transform)
@@ -127,7 +126,7 @@ public class BotController : MonoBehaviour
 
     public void PlayAudio(string audioName)
     {
-        audioManager.Play(audioName);
+        //audioManager.Play(audioName);
     }
 
     public void TakeDamage(float damage)
@@ -152,7 +151,6 @@ public class BotController : MonoBehaviour
         }
         else
         {
-            audioManager.Play("Hit");
             //Instantiate(damageFX, transform.position, Quaternion.identity);
         }
     }
