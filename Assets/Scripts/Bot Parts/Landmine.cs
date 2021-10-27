@@ -7,6 +7,7 @@ public class Landmine : MonoBehaviour
 
     private float damage;
     private int enemyLayer;
+    bool sticking = false;
 
     Rigidbody2D rb;
 
@@ -26,6 +27,16 @@ public class Landmine : MonoBehaviour
     // TO-DO make the landmine stick to surfaces
     private void OnCollisionEnter2D(Collision2D collision)
     {
+
+        // Stick to surface
+        if(!sticking)
+        {
+            // set the game object to be a child of the collided thing
+            Vector3 scale = transform.localScale;
+            transform.parent = collision.gameObject.transform;
+            sticking = true;
+            Debug.Log(collision.gameObject);
+        }
         //Check what layer collided game object is
         if (collision.gameObject.layer == enemyLayer)
         {
@@ -33,7 +44,7 @@ public class Landmine : MonoBehaviour
             //landmineColisionEvent.Invoke();   
 
             //Deal damage to collided enemy
-            collision.gameObject.GetComponent<BotController>().TakeDamage(damage);
+            //collision.gameObject.GetComponent<BotController>().TakeDamage(damage);
 
             //Destroy landmine if hit by an enemy
             Destroy(gameObject);
