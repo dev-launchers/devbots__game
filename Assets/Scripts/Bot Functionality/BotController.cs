@@ -11,6 +11,10 @@ public class BotController : MonoBehaviour
     public UnityEvent DamageTakenEvent;
     [SerializeField] private float HP = 1;
     [SerializeField] private float deathAnimationTime = 0;
+    //Set true if this bot should spawn random game objects for each slot
+    [SerializeField] private bool startWithRandomBotParts = false;
+    //This is used to get all botpart prefabs.
+    [SerializeField] private AvailableBotPartsData availableBotPartsData = default(AvailableBotPartsData);
     //class used to locate and change slots and the botparts which are on each slot
     public Slots slots;
     //bool used to determine whether this bot has already been created
@@ -47,7 +51,15 @@ public class BotController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         if (DamageTakenEvent == null)
             DamageTakenEvent = new UnityEvent();
-
+        //check if this bot should start with random botparts
+        if (startWithRandomBotParts)
+        {
+            //assign each slot with random botpart
+            slots.SetSlotBotPart(SlotPosition.Top, availableBotPartsData.PickRandomBotPart(availableBotPartsData.topSlotBotParts));
+            slots.SetSlotBotPart(SlotPosition.Back, availableBotPartsData.PickRandomBotPart(availableBotPartsData.backSlotBotParts));
+            slots.SetSlotBotPart(SlotPosition.Side, availableBotPartsData.PickRandomBotPart(availableBotPartsData.sideSlotBotParts));
+            slots.SetSlotBotPart(SlotPosition.Bottom, availableBotPartsData.PickRandomBotPart(availableBotPartsData.bottomSlotBotParts));
+        }
     }
 
     public void Update()

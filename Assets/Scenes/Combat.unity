@@ -237,6 +237,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4803837761002279098, guid: f5bf71bb695d90b4fb924d8a95a76d21,
         type: 3}
+      propertyPath: availableBotPartsData
+      value: 
+      objectReference: {fileID: 11400000, guid: 5e22d00720a4fb0499109f4e376a51d2,
+        type: 2}
+    - target: {fileID: 4803837761002279098, guid: f5bf71bb695d90b4fb924d8a95a76d21,
+        type: 3}
+      propertyPath: startWithRandomBotParts
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803837761002279098, guid: f5bf71bb695d90b4fb924d8a95a76d21,
+        type: 3}
       propertyPath: slots.top.botPartGameObject
       value: 
       objectReference: {fileID: 0}
