@@ -12,12 +12,6 @@ public class CooldownBar : MonoBehaviour
     //The botpart that this cooldown bar is going to be using
     BotPart botPart;
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-      
-    }
     private void OnEnable()
     {
         Debug.Log(transform.parent.GetComponentInParent<HealthAndCDHolder>().name);

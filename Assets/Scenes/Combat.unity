@@ -570,7 +570,7 @@ PrefabInstance:
     - target: {fileID: 6445505664823348032, guid: 06345ee7d9af06949be17088ab68c014,
         type: 3}
       propertyPath: debug
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6445505664823348032, guid: 06345ee7d9af06949be17088ab68c014,
         type: 3}
@@ -1321,7 +1321,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1434926991}
         m_TargetAssemblyTypeName: UserInterface, Assembly-CSharp
         m_MethodName: SettingsButtonPressed
         m_Mode: 1
