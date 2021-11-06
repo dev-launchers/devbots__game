@@ -15,26 +15,30 @@ public class Landmine : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        //Destroy(gameObject, 4.0f);
     }
 
     public void SetValues(float dmg, Vector3 size, int layer)
     {
         damage = dmg; //Set the damage of the projectile
-        gameObject.transform.localScale = size; //Set the projectile size
+        gameObject.transform.localScale = new Vector3(0.2f, 0.2f, 1.0f); //Set the projectile size
         enemyLayer = layer; //Set the target of the projectile, so it only hits the desired bot, will likely need to be array of layers for self-damaging items 
     }
 
     // TO-DO make the landmine stick to surfaces
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        gameObject.transform.localScale = new Vector3(0.2f, 0.2f, 1.0f); //Set the projectile size
 
         // Stick to surface
-        if(!sticking)
+        if (!sticking)
         {
             // set the game object to be a child of the collided thing
             Vector3 scale = transform.localScale;
             transform.parent = collision.gameObject.transform;
             sticking = true;
+            gameObject.transform.localScale = new Vector3(0.2f, 0.2f, 1.0f); //Set the projectile size
             Debug.Log(collision.gameObject);
         }
         //Check what layer collided game object is
@@ -49,9 +53,5 @@ public class Landmine : MonoBehaviour
             //Destroy landmine if hit by an enemy
             Destroy(gameObject);
         }
-
-        
-
-
     }
 }

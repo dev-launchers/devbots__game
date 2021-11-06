@@ -82,9 +82,16 @@ public class BotController : MonoBehaviour
 
     private void FaceEnemy()
     {
-        foreach (Transform childtransform in transform)
+        // THIS IS WHY THE LANDMINE GOES BIGGER
+        //foreach (Transform childtransform in transform)
+        //{
+        //    childtransform.localScale = new Vector3(sensor.GetNearestSensedBotDirection(), 1, 1);
+        //}
+
+        // loop over the slots and perform that code for it
+        foreach(GameObject childTransform in slots.GetSlotsList())
         {
-            childtransform.localScale = new Vector3(sensor.GetNearestSensedBotDirection(), 1, 1);
+            childTransform.transform.localScale = new Vector3(sensor.GetNearestSensedBotDirection(), 1, 1);
         }
     }
 

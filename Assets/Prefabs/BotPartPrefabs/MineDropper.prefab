@@ -17,7 +17,7 @@ MonoBehaviour:
   landmine: {fileID: 2178900616744046855, guid: 5d5e91f1909baac4e99d248e272bdbc3,
     type: 3}
   projectileStartPos: {fileID: 1043685101015733224}
-  projectileSize: {x: 0.2, y: 0.2, z: 1}
+  projectileSize: {x: 1, y: 1, z: 1}
   isRunning: 0
 --- !u!1 &1043685101015733224
 GameObject:

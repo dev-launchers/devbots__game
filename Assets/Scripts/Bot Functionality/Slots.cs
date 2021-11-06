@@ -94,4 +94,9 @@ public class Slots
         return slot.GetComponentInChildren<BotPart>();
     }
 
+    public List<GameObject> GetSlotsList()
+    {
+        return slots;   
+    }
+
 }
