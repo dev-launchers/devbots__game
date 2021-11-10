@@ -16,7 +16,7 @@ public class BotCustomizer : MonoBehaviour
 
     private void Awake()
     {
-        slots =  targetBot.GetComponent<BotController>().slots;
+        //slots =  targetBot.GetComponent<BotController>().slots;
     }
     public void NextOption() {
         currentOption++;

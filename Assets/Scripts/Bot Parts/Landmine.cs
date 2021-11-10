@@ -29,17 +29,16 @@ public class Landmine : MonoBehaviour
     // TO-DO make the landmine stick to surfaces
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        gameObject.transform.localScale = new Vector3(0.2f, 0.2f, 1.0f); //Set the projectile size
 
-        // Stick to surface
-        if (!sticking)
+        // Stick to surface except the player
+        if (!sticking && !collision.gameObject.layer.Equals("Player"))
         {
             // set the game object to be a child of the collided thing
             Vector3 scale = transform.localScale;
             transform.parent = collision.gameObject.transform;
+
+            // Only allow mine to stick one time
             sticking = true;
-            gameObject.transform.localScale = new Vector3(0.2f, 0.2f, 1.0f); //Set the projectile size
-            Debug.Log(collision.gameObject);
         }
         //Check what layer collided game object is
         if (collision.gameObject.layer == enemyLayer)
