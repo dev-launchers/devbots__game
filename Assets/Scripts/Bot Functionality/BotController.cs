@@ -26,7 +26,6 @@ public class BotController : MonoBehaviour
     {
         //Delegate used to trigger Onsceneloaded method when a new scene is loaded
         SceneManager.sceneLoaded += OnSceneLoaded;
-        slots.Initialize();
     }
 
     public void Start()
@@ -35,7 +34,7 @@ public class BotController : MonoBehaviour
         if (!created && sensor.IsPlayer())
         {
             //if this bot hasn't been created add it to dontdestroy on load
-            DontDestroyOnLoad(this);
+      DontDestroyOnLoad(this);
             created = true;
         }
         else if(sensor.IsPlayer())
@@ -83,17 +82,17 @@ public class BotController : MonoBehaviour
 
     private void FaceEnemy()
     {
-        foreach (Transform childtransform in transform)
-        {
-            childtransform.localScale = new Vector3(sensor.GetNearestSensedBotDirection(), 1, 1);
-        }
+        // THIS IS WHY THE LANDMINE GOES BIGGER
+        //foreach (Transform childtransform in transform)
+        //{
+        //    childtransform.localScale = new Vector3(sensor.GetNearestSensedBotDirection(), 1, 1);
+        //}
 
         // loop over the slots and perform that code for it
-        // the child transform is null
-        //foreach (GameObject childTransform in slots.GetSlotsList())
-        //{
-        //    childTransform.transform.localScale = new Vector3(sensor.GetNearestSensedBotDirection(), 1, 1);
-        //}
+        foreach(GameObject childTransform in slots.GetSlotsList())
+        {
+            childTransform.transform.localScale = new Vector3(sensor.GetNearestSensedBotDirection(), 1, 1);
+        }
     }
 
     public void SetPosition(Vector3 newPosition)

@@ -13,19 +13,13 @@ public class Slots
     public GameObject back;
     
     //List of all the slots
-    public List<GameObject> slots;
+    private List<GameObject> slots;
 
 
-    //public Slots()
-    //{
-    //    SetSlots();
-    //}
-
-    public void Initialize()
+    public Slots()
     {
         SetSlots();
     }
-
     //Initiate slots list by adding all slots to list
     private void SetSlots()
     {
