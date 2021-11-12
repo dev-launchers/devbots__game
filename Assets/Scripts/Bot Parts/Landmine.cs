@@ -9,6 +9,9 @@ public class Landmine : MonoBehaviour
     private int enemyLayer;
     bool sticking = false;
 
+    [SerializeField]
+    float destroyTime;
+
     Rigidbody2D rb;
 
     // Start is called before the first frame update
@@ -16,7 +19,7 @@ public class Landmine : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
 
-        //Destroy(gameObject, 4.0f);
+        Destroy(gameObject, destroyTime);
     }
 
     public void SetValues(float dmg, Vector3 size, int layer)
@@ -31,7 +34,7 @@ public class Landmine : MonoBehaviour
     {
 
         // Stick to surface
-        if (!sticking)
+        if (!sticking && collision.gameObject.layer != LayerMask.NameToLayer("Player"))
         {
             // set the game object to be a child of the collided thing
             Vector3 scale = transform.localScale;
@@ -50,5 +53,11 @@ public class Landmine : MonoBehaviour
             //Destroy landmine if hit by an enemy
             Destroy(gameObject);
         }
+    }
+
+    private void OnDestroy()
+    {
+        // release all the children gameobjects
+        transform.DetachChildren();
     }
 }
