@@ -26,6 +26,7 @@ public class BotController : MonoBehaviour
     {
         //Delegate used to trigger Onsceneloaded method when a new scene is loaded
         SceneManager.sceneLoaded += OnSceneLoaded;
+        slots.Initialize();
     }
 
     public void Start()
@@ -85,6 +86,12 @@ public class BotController : MonoBehaviour
         foreach (Transform childtransform in transform)
         {
             childtransform.localScale = new Vector3(sensor.GetNearestSensedBotDirection(), 1, 1);
+        }
+
+        // loop over the slots and perform that code for it
+        foreach (GameObject childTransform in slots.GetSlotsList())
+        {
+            childTransform.transform.localScale = new Vector3(sensor.GetNearestSensedBotDirection(), 1, 1);
         }
     }
 

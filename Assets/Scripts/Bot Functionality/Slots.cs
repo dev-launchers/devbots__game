@@ -15,11 +15,11 @@ public class Slots
     //List of all the slots
     private List<GameObject> slots;
 
-
-    public Slots()
+    public void Initialize()
     {
         SetSlots();
     }
+
     //Initiate slots list by adding all slots to list
     private void SetSlots()
     {
@@ -92,6 +92,11 @@ public class Slots
     {
         GameObject slot = GetSlot(slotPosition);
         return slot.GetComponentInChildren<BotPart>();
+    }
+
+    public List<GameObject> GetSlotsList()
+    {
+        return slots;   
     }
 
 }

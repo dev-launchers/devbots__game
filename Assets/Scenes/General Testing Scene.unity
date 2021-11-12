@@ -497,6 +497,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &424801166 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5119701041641690834, guid: 55a5686628bdc0149b38cd6270fdf86a,
+    type: 3}
+  m_PrefabInstance: {fileID: 651551277}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b240202f61e0a54babb0a67cb3f05a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -981,6 +993,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1060017477}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &811980954 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6180655250878159276, guid: 993785d800ec6944fa983f0321403afe,
+    type: 3}
+  m_PrefabInstance: {fileID: 2029469836}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b240202f61e0a54babb0a67cb3f05a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!850595691 &886579155
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -1454,8 +1478,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerBotController: {fileID: 0}
   enemyBotController: {fileID: 0}
-  playerHealthBar: {fileID: 0}
-  enemyHealthBar: {fileID: 0}
+  playerHealthBar: {fileID: 424801166}
+  enemyHealthBar: {fileID: 811980954}
   cooldownBarPrefab: {fileID: 0}
   settingsPanel: {fileID: 0}
 --- !u!4 &1434926992
