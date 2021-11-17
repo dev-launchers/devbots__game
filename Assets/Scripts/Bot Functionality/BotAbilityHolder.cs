@@ -16,7 +16,7 @@ public class BotAbilityHolder : MonoBehaviour
 
     private AbilityState state = AbilityState.Active;
     
-    public BotAbility ability;
+    [SerializeField]private BotAbility ability;
 
     private float coolDownTime;
 
@@ -41,8 +41,9 @@ public class BotAbilityHolder : MonoBehaviour
                 if (activeTime > 0) activeTime -= Time.deltaTime;
                 else
                 {
-                    state = AbilityState.Cooldown;
                     coolDownTime = ability.coolDownTime;
+                    state = AbilityState.Cooldown;
+                    
                     Debug.Log("Cooldown");
                 }
                 break;
