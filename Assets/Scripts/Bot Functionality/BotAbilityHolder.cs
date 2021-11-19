@@ -25,7 +25,7 @@ public class BotAbilityHolder : MonoBehaviour
     private float activeTime=0;
 
     [SerializeField] private bool isRunning;
-    
+    [SerializeField] private bool hasAnimation;
     private Animator animator;
 
     private void Start()
@@ -42,30 +42,24 @@ public class BotAbilityHolder : MonoBehaviour
             case AbilityState.Ready:
                 if (isRunning/*condition for any move*/)
                 {
-                    ability.Activate(gameObject);
-                    state = AbilityState.Active;
-                    activeTime = ability.activeTime;
+                    SwitchToActive();
                 }
                 break;
             
             case AbilityState.Active:
-                //if (activeTime > 0) activeTime -= Time.deltaTime;
-                /*else
-                {
-                    coolDownTime = ability.coolDownTime;
-                    state = AbilityState.Cooldown;
-                    animator.SetTrigger(COOLDOWN);
-                    Debug.Log("Cooldown");
-                }*/
+                if(!hasAnimation)
+                    if (activeTime > 0) activeTime -= Time.deltaTime;
+                    else
+                    {
+                        SwitchToCooldown();
+                    }
                 break;
             
             case AbilityState.Cooldown: 
                 if (coolDownTime > 0) coolDownTime -= Time.deltaTime;
                 else
                 {
-                    animator.SetTrigger(ACTIVE);
-                    Debug.Log("Ready");
-                    state = AbilityState.Ready;
+                    SwitchToReady();
                 }
                 break;
         }
@@ -78,5 +72,19 @@ public class BotAbilityHolder : MonoBehaviour
         state = AbilityState.Cooldown;
         animator.SetTrigger(COOLDOWN);
         Debug.Log("Cooldown");
+    }
+
+    public void SwitchToReady()
+    {
+        animator.SetTrigger(ACTIVE);
+        Debug.Log("Ready");
+        state = AbilityState.Ready;
+    }
+
+    public void SwitchToActive()
+    {
+        ability.Activate(gameObject);
+        state = AbilityState.Active;
+        activeTime = ability.activeTime;
     }
 }
