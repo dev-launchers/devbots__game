@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -12,17 +13,27 @@ public enum AbilityState
 };
 public class BotAbilityHolder : MonoBehaviour
 {
+    private const string ACTIVE = "active";
+    private const string COOLDOWN = "cooldown";
     
-
-    private AbilityState state = AbilityState.Active;
+    private AbilityState state;
     
     [SerializeField]private BotAbility ability;
 
     private float coolDownTime;
 
-    private float activeTime;
+    private float activeTime=0;
 
     [SerializeField] private bool isRunning;
+    
+    private Animator animator;
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+        SwitchToCooldown();//start in cooldown state
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -38,24 +49,34 @@ public class BotAbilityHolder : MonoBehaviour
                 break;
             
             case AbilityState.Active:
-                if (activeTime > 0) activeTime -= Time.deltaTime;
-                else
+                //if (activeTime > 0) activeTime -= Time.deltaTime;
+                /*else
                 {
                     coolDownTime = ability.coolDownTime;
                     state = AbilityState.Cooldown;
-                    
+                    animator.SetTrigger(COOLDOWN);
                     Debug.Log("Cooldown");
-                }
+                }*/
                 break;
             
             case AbilityState.Cooldown: 
                 if (coolDownTime > 0) coolDownTime -= Time.deltaTime;
                 else
                 {
+                    animator.SetTrigger(ACTIVE);
                     Debug.Log("Ready");
                     state = AbilityState.Ready;
                 }
                 break;
         }
+    }
+
+
+    public void SwitchToCooldown()
+    {
+        coolDownTime = ability.coolDownTime;
+        state = AbilityState.Cooldown;
+        animator.SetTrigger(COOLDOWN);
+        Debug.Log("Cooldown");
     }
 }

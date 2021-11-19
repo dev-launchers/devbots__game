@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu(fileName = "Move Ability", menuName = "Ability Objects/Movement Ability", order = 2)]
+//[CreateAssetMenu(fileName = "Move Ability", menuName = "Ability Objects/Movement Ability", order = 2)]
 
 public class MoveAbility : BotAbility
 {

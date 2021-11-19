@@ -34,10 +34,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Bot Parts/DrillBotPart.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bot Parts/WingsPart.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotAbility.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Bot Actions/MoveAbility.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/WingAbility.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bot Parts/GunPart.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Bot Actions/AttackAbility.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Additions/GunPosition.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bot Parts/Projectile.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/GunAbility.cs" />
@@ -46,6 +44,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/WheelAbility.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/TeslaAbility.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/TeleportAbility.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Bot Actions/MoveAbility.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Bot Actions/AttackAbility.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotAbilityHolder.cs" />
     </changedPaths>
   </component>
@@ -100,7 +100,8 @@
       <workItem from="1636042452471" duration="9054000" />
       <workItem from="1636215149630" duration="1118000" />
       <workItem from="1636704286918" duration="6110000" />
-      <workItem from="1637168376331" duration="1189000" />
+      <workItem from="1637168376331" duration="2886000" />
+      <workItem from="1637319554428" duration="1978000" />
     </task>
     <servers />
   </component>

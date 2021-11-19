@@ -1,0 +1,948 @@
+fileFormatVersion: 2
+guid: 70562c75de182994c88f9eea1eb2aa70
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1510045006214310326
+    second: Sword Updated Sprite Sheet Test_0
+  - first:
+      213: 1199772201484816393
+    second: Sword Updated Sprite Sheet Test_1
+  - first:
+      213: 4906122619054927961
+    second: Sword Updated Sprite Sheet Test_2
+  - first:
+      213: 6155860933303939992
+    second: Sword Updated Sprite Sheet Test_3
+  - first:
+      213: 8790866095703697520
+    second: Sword Updated Sprite Sheet Test_4
+  - first:
+      213: 3063406222450462002
+    second: Sword Updated Sprite Sheet Test_5
+  - first:
+      213: -5409703099898498158
+    second: Sword Updated Sprite Sheet Test_6
+  - first:
+      213: -2721163420525621072
+    second: Sword Updated Sprite Sheet Test_7
+  - first:
+      213: 9091728432009380897
+    second: Sword Updated Sprite Sheet Test_8
+  - first:
+      213: 7817925480221149410
+    second: Sword Updated Sprite Sheet Test_9
+  - first:
+      213: -3046843199000977029
+    second: Sword Updated Sprite Sheet Test_10
+  - first:
+      213: -3430624889862582217
+    second: Sword Updated Sprite Sheet Test_11
+  - first:
+      213: 2728125404491755347
+    second: Sword Updated Sprite Sheet Test_12
+  - first:
+      213: 1069077014653178527
+    second: Sword Updated Sprite Sheet Test_13
+  - first:
+      213: -8094026571228342472
+    second: Sword Updated Sprite Sheet Test_14
+  - first:
+      213: -8321698721050800677
+    second: Sword Updated Sprite Sheet Test_15
+  - first:
+      213: -5859777254808521850
+    second: Sword Updated Sprite Sheet Test_16
+  - first:
+      213: 983927904855684720
+    second: Sword Updated Sprite Sheet Test_17
+  - first:
+      213: -7818651543762787604
+    second: Sword Updated Sprite Sheet Test_18
+  - first:
+      213: 7732718297636154089
+    second: Sword Updated Sprite Sheet Test_19
+  - first:
+      213: -2131827855994343152
+    second: Sword Updated Sprite Sheet Test_20
+  - first:
+      213: -6096500777186586153
+    second: Sword Updated Sprite Sheet Test_21
+  - first:
+      213: -2510943485412064501
+    second: Sword Updated Sprite Sheet Test_22
+  - first:
+      213: 5178546243247140762
+    second: Sword Updated Sprite Sheet Test_23
+  - first:
+      213: -6361103542417912699
+    second: Sword Updated Sprite Sheet Test_24
+  - first:
+      213: -2033629451500221637
+    second: Sword Updated Sprite Sheet Test_25
+  - first:
+      213: 1490353403001383835
+    second: Sword Updated Sprite Sheet Test_26
+  - first:
+      213: -2690273293839753810
+    second: Sword Updated Sprite Sheet Test_27
+  - first:
+      213: 8538897480088045940
+    second: Sword Updated Sprite Sheet Test_28
+  - first:
+      213: 5792561101666458609
+    second: Sword Updated Sprite Sheet Test_29
+  - first:
+      213: 3129408667795761009
+    second: Sword Updated Sprite Sheet Test_30
+  - first:
+      213: 8482408717542703408
+    second: Sword Updated Sprite Sheet Test_31
+  - first:
+      213: -7410240096493011217
+    second: Sword Updated Sprite Sheet Test_32
+  - first:
+      213: 8142618331359167939
+    second: Sword Updated Sprite Sheet Test_33
+  - first:
+      213: 3873166338980657037
+    second: Sword Updated Sprite Sheet Test_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 32
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5712
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a465eb1411e3b0be0800000000000000
+      internalID: -1510045006214310326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_1
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 5712
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90014e8e57276a010800000000000000
+      internalID: 1199772201484816393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_2
+      rect:
+        serializedVersion: 2
+        x: 3932
+        y: 5712
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950374d378c061440800000000000000
+      internalID: 4906122619054927961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_3
+      rect:
+        serializedVersion: 2
+        x: 5898
+        y: 5712
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893394857e20e6550800000000000000
+      internalID: 6155860933303939992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_4
+      rect:
+        serializedVersion: 2
+        x: 7864
+        y: 5712
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078a176532e6ff970800000000000000
+      internalID: 8790866095703697520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_5
+      rect:
+        serializedVersion: 2
+        x: 9830
+        y: 5712
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d81eb8ab7638a20800000000000000
+      internalID: 3063406222450462002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_6
+      rect:
+        serializedVersion: 2
+        x: 11796
+        y: 5712
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293783641bfdce4b0800000000000000
+      internalID: -5409703099898498158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4284
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b098cf494c7c3ad0800000000000000
+      internalID: -2721163420525621072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_8
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 4284
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1240d30c6de4c2e70800000000000000
+      internalID: 9091728432009380897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_9
+      rect:
+        serializedVersion: 2
+        x: 3932
+        y: 4284
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e88e099dc9de7c60800000000000000
+      internalID: 7817925480221149410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_10
+      rect:
+        serializedVersion: 2
+        x: 5898
+        y: 4284
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b716b3dd04077b5d0800000000000000
+      internalID: -3046843199000977029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_11
+      rect:
+        serializedVersion: 2
+        x: 7864
+        y: 4284
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7309022c6d8f360d0800000000000000
+      internalID: -3430624889862582217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_12
+      rect:
+        serializedVersion: 2
+        x: 9830
+        y: 4284
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f2375e99f3cd520800000000000000
+      internalID: 2728125404491755347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_13
+      rect:
+        serializedVersion: 2
+        x: 11796
+        y: 4284
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9210ff61ef16de00800000000000000
+      internalID: 1069077014653178527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2856
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8379c5ba7bd3caf80800000000000000
+      internalID: -8094026571228342472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_15
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 2856
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddc1fb7a13638c80800000000000000
+      internalID: -8321698721050800677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_16
+      rect:
+        serializedVersion: 2
+        x: 3932
+        y: 2856
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683793812a3edaea0800000000000000
+      internalID: -5859777254808521850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_17
+      rect:
+        serializedVersion: 2
+        x: 5898
+        y: 2856
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0767485673d97ad00800000000000000
+      internalID: 983927904855684720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_18
+      rect:
+        serializedVersion: 2
+        x: 7864
+        y: 2856
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2a57f88d19e7390800000000000000
+      internalID: -7818651543762787604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_19
+      rect:
+        serializedVersion: 2
+        x: 9830
+        y: 2856
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea24ce6252205b60800000000000000
+      internalID: 7732718297636154089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_20
+      rect:
+        serializedVersion: 2
+        x: 11796
+        y: 2856
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011bc212cd93a62e0800000000000000
+      internalID: -2131827855994343152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1428
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d196e208d0e46ba0800000000000000
+      internalID: -6096500777186586153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_22
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 1428
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03ceec1436572dd0800000000000000
+      internalID: -2510943485412064501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_23
+      rect:
+        serializedVersion: 2
+        x: 3932
+        y: 1428
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9feda10f54edd740800000000000000
+      internalID: 5178546243247140762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_24
+      rect:
+        serializedVersion: 2
+        x: 5898
+        y: 1428
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c83bed702d8b7a0800000000000000
+      internalID: -6361103542417912699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_25
+      rect:
+        serializedVersion: 2
+        x: 7864
+        y: 1428
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b8e8ad9c817c3e0800000000000000
+      internalID: -2033629451500221637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_26
+      rect:
+        serializedVersion: 2
+        x: 9830
+        y: 1428
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b21b7168ccea410800000000000000
+      internalID: 1490353403001383835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_27
+      rect:
+        serializedVersion: 2
+        x: 11796
+        y: 1428
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead16f361ba3aaad0800000000000000
+      internalID: -2690273293839753810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47940226402408670800000000000000
+      internalID: 8538897480088045940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_29
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 0
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb1394b1af436050800000000000000
+      internalID: 5792561101666458609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_30
+      rect:
+        serializedVersion: 2
+        x: 3932
+        y: 0
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177aef06a94ed6b20800000000000000
+      internalID: 3129408667795761009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_31
+      rect:
+        serializedVersion: 2
+        x: 5898
+        y: 0
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0314fc079c197b570800000000000000
+      internalID: 8482408717542703408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_32
+      rect:
+        serializedVersion: 2
+        x: 7864
+        y: 0
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee7d24b4e9892990800000000000000
+      internalID: -7410240096493011217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_33
+      rect:
+        serializedVersion: 2
+        x: 9830
+        y: 0
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c54f3e1b34600170800000000000000
+      internalID: 8142618331359167939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword Updated Sprite Sheet Test_34
+      rect:
+        serializedVersion: 2
+        x: 11796
+        y: 0
+        width: 1966
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8731fea34040c530800000000000000
+      internalID: 3873166338980657037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
