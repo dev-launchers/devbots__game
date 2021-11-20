@@ -14,10 +14,7 @@ public class BotCustomizer : MonoBehaviour
     Slots slots = default(Slots);
     private int currentOption = 0;
 
-    private void Awake()
-    {
-        slots =  targetBot.GetComponent<BotController>().slots;
-    }
+
     public void NextOption() {
         currentOption++;
         if (currentOption >= options.Count) {
@@ -33,13 +30,17 @@ public class BotCustomizer : MonoBehaviour
         }
         UpdateSlot();
     }
-    private void Start()
-    {
-        targetBot = GameObject.FindGameObjectWithTag("Bot");
-        slots = targetBot.GetComponent<BotController>().slots;
-    }
+
     public void UpdateSlot()
     {
+        if (!targetBot)
+        {
+  
+            targetBot = GameObject.FindGameObjectWithTag("Bot");
+        slots = targetBot.GetComponent<BotController>().slots;  
+
+        }
+
         //clunky?
 
         //GameObject newTarget = Instantiate(options[currentOption], targetSlot.transform.position, targetSlot.transform.rotation, slots.GetSlot(slotPosition).GetGameObject().transform);

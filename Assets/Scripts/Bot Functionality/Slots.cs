@@ -93,6 +93,18 @@ public class Slots
         GameObject slot = GetSlot(slotPosition);
         return slot.GetComponentInChildren<BotPart>();
     }
+
+
+    /// <summary>
+    /// Get the  bot ability located at this slot
+    /// </summary>
+    /// <param name="slotPosition"></param>
+    /// <returns>This method returns the botability holder at this slot</returns>
+    public BotAbilityHolder GetSlotBotAbilityHolder(SlotPosition slotPosition)
+    {
+        GameObject slot = GetSlot(slotPosition);
+        return slot.GetComponentInChildren<BotAbilityHolder>();
+    }
     //Get the  botpart located at this slot
     public BotPart GetSlotBotPart(GameObject slot)
     {

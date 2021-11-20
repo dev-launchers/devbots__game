@@ -29,24 +29,16 @@ public class BotController : MonoBehaviour
     public void OnEnable()
     {
         //Delegate used to trigger Onsceneloaded method when a new scene is loaded
-        SceneManager.sceneLoaded += OnSceneLoaded;
+        SceneManager.sceneLoaded += OnSceneLoaded;    
+
     }
 
-    public void Start()
+    public void Awake()
     {        
      sensor = GetComponent<BotSensor>();
-        if (!created && sensor.IsPlayer())
-        {
-            //if this bot hasn't been created add it to dontdestroy on load
-      DontDestroyOnLoad(this);
-            created = true;
-        }
-        else if(sensor.IsPlayer())
-        {
-            //if this bot has been created already destroy this bot
-            Destroy(this.gameObject);
-        }
-  
+ 
+   
+
         audioManager = FindObjectOfType<AudioManager>();
         rb = GetComponent<Rigidbody2D>();
         if (DamageTakenEvent == null)
@@ -60,6 +52,27 @@ public class BotController : MonoBehaviour
             slots.SetSlotBotPart(SlotPosition.Side, availableBotPartsData.PickRandomBotPart(availableBotPartsData.sideSlotBotParts));
             slots.SetSlotBotPart(SlotPosition.Bottom, availableBotPartsData.PickRandomBotPart(availableBotPartsData.bottomSlotBotParts));
         }
+    }
+
+    private void Start()
+    {        
+        //check if this bot is the player and that created variable is false
+        if (sensor.IsPlayer() && created==false)
+        {    //set this bot to not destroy when loading a new scerne
+            DontDestroyOnLoad(gameObject);
+            created = true;
+      
+    //if this bot has been created already destroy this bot
+            //Destroy(this.gameObject);
+
+        }
+        
+       else if (sensor.IsPlayer() && created)
+        {
+            //Destroy gameobject if bot already created
+            Destroy(gameObject);
+        }
+
     }
 
     public void Update()
@@ -78,16 +91,18 @@ public class BotController : MonoBehaviour
     /// <param name="loadSceneMode"></param>
     private void OnSceneLoaded(Scene scene,LoadSceneMode loadSceneMode)
     {
-        if (sensor.IsPlayer())               
+
+
+        if (sensor.IsPlayer())
         {
-
-
             //check new loaded scene's name
             switch (scene.name)
             {
                 case "Main Menu Scene":
                 case "Bot Customize Scene":
                 case "Combat":
+
+
                     //activate this bot
                     gameObject.SetActive(true);
 
@@ -96,23 +111,28 @@ public class BotController : MonoBehaviour
                 case "Settings Scene":
                 case "Victory Scene":
                 case "Lose Scene":
-                    //deactivate this bot
                     gameObject.SetActive(false);
                     break;
+
             }
-        }
-        if (scene.name == "Main Menu Scene" || scene.name == "Bot Customize Scene")
-        {
-            //set bot's position to the botStartPos gameobjects position
-            transform.position = GameObject.Find("botStartPos").transform.position;
-            //freeze this bots gameobject
-            rb.constraints = RigidbodyConstraints2D.FreezeAll;
-        }
-        else
-        {
-            //unfreeze this bots gameobject
-            rb.constraints = RigidbodyConstraints2D.None;
-            rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+            if (scene.name == "Main Menu Scene" || scene.name == "Bot Customize Scene")
+            {
+
+                //set bot's position to the botStartPos gameobjects position
+                transform.position = GameObject.Find("botStartPos").transform.position;
+                //freeze this bots gameobject
+                rb.constraints = RigidbodyConstraints2D.FreezeAll;
+
+
+            }
+            else
+            {
+
+                //unfreeze this bots gameobject
+                rb.constraints = RigidbodyConstraints2D.None;
+                rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+
+            }
         }
     }
 
