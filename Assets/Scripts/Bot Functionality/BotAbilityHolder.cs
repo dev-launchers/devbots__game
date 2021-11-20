@@ -70,7 +70,9 @@ public class BotAbilityHolder : MonoBehaviour
     {
         coolDownTime = ability.coolDownTime;
         state = AbilityState.Cooldown;
+        
         animator.SetTrigger(COOLDOWN);
+        
         Debug.Log("Cooldown");
     }
 

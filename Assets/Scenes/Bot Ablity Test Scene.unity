@@ -135,6 +135,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GunPart
       objectReference: {fileID: 0}
+    - target: {fileID: 4299799854100627088, guid: 8333fe67a832c6b43a69cdc70e74e93a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5381907323057463104, guid: 8333fe67a832c6b43a69cdc70e74e93a,
         type: 3}
       propertyPath: m_RootOrder
@@ -645,7 +650,7 @@ PrefabInstance:
     - target: {fileID: 8571531404378204787, guid: 44c68ed773577014da0e71300ad0ee46,
         type: 3}
       propertyPath: hasAnimation
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44c68ed773577014da0e71300ad0ee46, type: 3}
