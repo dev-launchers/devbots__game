@@ -357,7 +357,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1799167293}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -0.36, y: 1.3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -577,10 +577,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3537047089999059684}
     m_Modifications:
+    - target: {fileID: 903439459143983673, guid: 44c68ed773577014da0e71300ad0ee46,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2166753229591355256, guid: 44c68ed773577014da0e71300ad0ee46,
         type: 3}
       propertyPath: m_Name
       value: TempSword
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166753229591355256, guid: 44c68ed773577014da0e71300ad0ee46,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2166753229591355257, guid: 44c68ed773577014da0e71300ad0ee46,
         type: 3}
@@ -592,6 +602,22 @@ PrefabInstance:
       propertyPath: m_MaskInteraction
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3046065967157217457, guid: 44c68ed773577014da0e71300ad0ee46,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3046065967157217457, guid: 44c68ed773577014da0e71300ad0ee46,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7336568193227967748, guid: 44c68ed773577014da0e71300ad0ee46,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8849432191084026814, guid: a76b7d7419cf4a149b6dab168831a0f8,
+        type: 3}
     - target: {fileID: 8001295136021642920, guid: 44c68ed773577014da0e71300ad0ee46,
         type: 3}
       propertyPath: m_RootOrder

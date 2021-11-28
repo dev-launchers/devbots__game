@@ -1,0 +1,1320 @@
+fileFormatVersion: 2
+guid: a76b7d7419cf4a149b6dab168831a0f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8849432191084026814
+    second: Claymore 2nd Smallest_0
+  - first:
+      213: 7940937000155233522
+    second: Claymore 2nd Smallest_1
+  - first:
+      213: -7086212993929570784
+    second: Claymore 2nd Smallest_2
+  - first:
+      213: -8304746379288558334
+    second: Claymore 2nd Smallest_3
+  - first:
+      213: -641927835595130629
+    second: Claymore 2nd Smallest_4
+  - first:
+      213: 5960584528231166001
+    second: Claymore 2nd Smallest_5
+  - first:
+      213: -4547383478429171557
+    second: Claymore 2nd Smallest_6
+  - first:
+      213: -8130718468347313917
+    second: Claymore 2nd Smallest_7
+  - first:
+      213: -7452171808641453983
+    second: Claymore 2nd Smallest_8
+  - first:
+      213: 1167674854919472779
+    second: Claymore 2nd Smallest_9
+  - first:
+      213: 7384812788517860934
+    second: Claymore 2nd Smallest_10
+  - first:
+      213: -3544672705900723092
+    second: Claymore 2nd Smallest_11
+  - first:
+      213: 6987529282275276066
+    second: Claymore 2nd Smallest_12
+  - first:
+      213: 2713770251046973814
+    second: Claymore 2nd Smallest_13
+  - first:
+      213: 6404960795103335459
+    second: Claymore 2nd Smallest_14
+  - first:
+      213: 2988686167927302896
+    second: Claymore 2nd Smallest_15
+  - first:
+      213: -7044340524629585546
+    second: Claymore 2nd Smallest_16
+  - first:
+      213: 957014566289834834
+    second: Claymore 2nd Smallest_17
+  - first:
+      213: 8451174122074917590
+    second: Claymore 2nd Smallest_18
+  - first:
+      213: -2520517641305733508
+    second: Claymore 2nd Smallest_19
+  - first:
+      213: 2783160093054505986
+    second: Claymore 2nd Smallest_20
+  - first:
+      213: 7124141208368939775
+    second: Claymore 2nd Smallest_21
+  - first:
+      213: -8230152914959726147
+    second: Claymore 2nd Smallest_22
+  - first:
+      213: 8409758303236156435
+    second: Claymore 2nd Smallest_23
+  - first:
+      213: -2349867137101654188
+    second: Claymore 2nd Smallest_24
+  - first:
+      213: -8382756291246444643
+    second: Claymore 2nd Smallest_25
+  - first:
+      213: 998174072073482832
+    second: Claymore 2nd Smallest_26
+  - first:
+      213: 3316902499339600347
+    second: Claymore 2nd Smallest_27
+  - first:
+      213: -1977538052718358812
+    second: Claymore 2nd Smallest_28
+  - first:
+      213: -6436629812641090546
+    second: Claymore 2nd Smallest_29
+  - first:
+      213: -1665882869676009800
+    second: Claymore 2nd Smallest_30
+  - first:
+      213: 1668879652130686388
+    second: Claymore 2nd Smallest_31
+  - first:
+      213: 7357367912974945050
+    second: Claymore 2nd Smallest_32
+  - first:
+      213: -542250382749623587
+    second: Claymore 2nd Smallest_33
+  - first:
+      213: -2680688690419673453
+    second: Claymore 2nd Smallest_34
+  - first:
+      213: -2429701893673639060
+    second: Claymore 2nd Smallest_35
+  - first:
+      213: 5268222423493141878
+    second: Claymore 2nd Smallest_36
+  - first:
+      213: -1097728623936935253
+    second: Claymore 2nd Smallest_37
+  - first:
+      213: -6647623679338512216
+    second: Claymore 2nd Smallest_38
+  - first:
+      213: 6565770467004304418
+    second: Claymore 2nd Smallest_39
+  - first:
+      213: 5280501577279602293
+    second: Claymore 2nd Smallest_40
+  - first:
+      213: 8208297992587154502
+    second: Claymore 2nd Smallest_41
+  - first:
+      213: -728050009278556189
+    second: Claymore 2nd Smallest_42
+  - first:
+      213: -8052584222737439823
+    second: Claymore 2nd Smallest_43
+  - first:
+      213: 7858752499652487477
+    second: Claymore 2nd Smallest_44
+  - first:
+      213: -9036713118702156163
+    second: Claymore 2nd Smallest_45
+  - first:
+      213: -2622858702160312128
+    second: Claymore 2nd Smallest_46
+  - first:
+      213: 196566081017077400
+    second: Claymore 2nd Smallest_47
+  - first:
+      213: -8909841821196654222
+    second: Claymore 2nd Smallest_48
+  - first:
+      213: 850737428361711485
+    second: Claymore 2nd Smallest_49
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2405.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244a78afe40803580800000000000000
+      internalID: -8849432191084026814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_1
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 2405.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc3206f020e33e60800000000000000
+      internalID: 7940937000155233522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_2
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 2405.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026121e83d6b8ad90800000000000000
+      internalID: -7086212993929570784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_3
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 2405.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2054bc02b2d9fbc80800000000000000
+      internalID: -8304746379288558334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_4
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 2405.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8baebd80a6717f0800000000000000
+      internalID: -641927835595130629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_5
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 2405.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13078e24c0048b250800000000000000
+      internalID: 5960584528231166001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_6
+      rect:
+        serializedVersion: 2
+        x: 4386
+        y: 2405.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90cfb6c1d274e0c0800000000000000
+      internalID: -4547383478429171557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_7
+      rect:
+        serializedVersion: 2
+        x: 5117
+        y: 2405.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3014375a1a2e92f80800000000000000
+      internalID: -8130718468347313917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_8
+      rect:
+        serializedVersion: 2
+        x: 5848
+        y: 2405.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160febc2931949890800000000000000
+      internalID: -7452171808641453983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_9
+      rect:
+        serializedVersion: 2
+        x: 6579
+        y: 2405.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8681ac081a643010800000000000000
+      internalID: 1167674854919472779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1804.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6467e50da102c7660800000000000000
+      internalID: 7384812788517860934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_11
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1804.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64c3c754facecec0800000000000000
+      internalID: -3544672705900723092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_12
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 1804.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22578a75cd0b8f060800000000000000
+      internalID: 6987529282275276066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_13
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 1804.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6717da74aaf39a520800000000000000
+      internalID: 2713770251046973814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_14
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 1804.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324107088edf2e850800000000000000
+      internalID: 6404960795103335459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_15
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 1804.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa2e682c32f97920800000000000000
+      internalID: 2988686167927302896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_16
+      rect:
+        serializedVersion: 2
+        x: 4386
+        y: 1804.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67190988d997d3e90800000000000000
+      internalID: -7044340524629585546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_17
+      rect:
+        serializedVersion: 2
+        x: 5117
+        y: 1804.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25384947daff74d00800000000000000
+      internalID: 957014566289834834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_18
+      rect:
+        serializedVersion: 2
+        x: 5848
+        y: 1804.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dacf39761a984570800000000000000
+      internalID: 8451174122074917590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_19
+      rect:
+        serializedVersion: 2
+        x: 6579
+        y: 1804.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76cddb3f82550dd0800000000000000
+      internalID: -2520517641305733508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1203.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2049e8bdb55cf9620800000000000000
+      internalID: 2783160093054505986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_21
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1203.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff28d860fa80ed260800000000000000
+      internalID: 7124141208368939775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_22
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 1203.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db90ea0778f98cd80800000000000000
+      internalID: -8230152914959726147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_23
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 1203.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c6847be9675b470800000000000000
+      internalID: 8409758303236156435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_24
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 1203.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45711b7f948936fd0800000000000000
+      internalID: -2349867137101654188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_25
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 1203.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fa59d11977aab80800000000000000
+      internalID: -8382756291246444643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_26
+      rect:
+        serializedVersion: 2
+        x: 4386
+        y: 1203.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052f1fda70a3add00800000000000000
+      internalID: 998174072073482832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_27
+      rect:
+        serializedVersion: 2
+        x: 5117
+        y: 1203.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd10ebbdf31080e20800000000000000
+      internalID: 3316902499339600347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_28
+      rect:
+        serializedVersion: 2
+        x: 5848
+        y: 1203.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee87e55e9f5e84e0800000000000000
+      internalID: -1977538052718358812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_29
+      rect:
+        serializedVersion: 2
+        x: 6579
+        y: 1203.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04b6d2c94f7ca6a0800000000000000
+      internalID: -6436629812641090546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 602.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b69d833b5891e8e0800000000000000
+      internalID: -1665882869676009800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_31
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 602.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b58026933d092710800000000000000
+      internalID: 1668879652130686388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_32
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 602.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b8ab6c22f9a1660800000000000000
+      internalID: 7357367912974945050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_33
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 602.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda93ec562a8978f0800000000000000
+      internalID: -542250382749623587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_34
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 602.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396d026c6d74ccad0800000000000000
+      internalID: -2680688690419673453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_35
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 602.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c632d753007f74ed0800000000000000
+      internalID: -2429701893673639060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_36
+      rect:
+        serializedVersion: 2
+        x: 4386
+        y: 602.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6756e06c16c7c1940800000000000000
+      internalID: 5268222423493141878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_37
+      rect:
+        serializedVersion: 2
+        x: 5117
+        y: 602.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baae57ee1a514c0f0800000000000000
+      internalID: -1097728623936935253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_38
+      rect:
+        serializedVersion: 2
+        x: 5848
+        y: 602.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a08d88fb75eeb3a0800000000000000
+      internalID: -6647623679338512216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_39
+      rect:
+        serializedVersion: 2
+        x: 6579
+        y: 602.6
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cca8ae37d4e1b50800000000000000
+      internalID: 6565770467004304418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.5999756
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ef3ad053c184940800000000000000
+      internalID: 5280501577279602293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_41
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1.5999756
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64495bae88bb9e170800000000000000
+      internalID: 8208297992587154502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_42
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 1.5999756
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e75b3abf5275e5f0800000000000000
+      internalID: -728050009278556189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_43
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 1.5999756
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3e1d750597f3090800000000000000
+      internalID: -8052584222737439823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_44
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 1.5999756
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539ef7fc2c5ef0d60800000000000000
+      internalID: 7858752499652487477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_45
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 1.5999756
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7645ae0c45279280800000000000000
+      internalID: -9036713118702156163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_46
+      rect:
+        serializedVersion: 2
+        x: 4386
+        y: 1.5999756
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c841b928ebb99bd0800000000000000
+      internalID: -2622858702160312128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_47
+      rect:
+        serializedVersion: 2
+        x: 5117
+        y: 1.5999756
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ed9e92fc75ab200800000000000000
+      internalID: 196566081017077400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_48
+      rect:
+        serializedVersion: 2
+        x: 5848
+        y: 1.5999756
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27967aae112e95480800000000000000
+      internalID: -8909841821196654222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Claymore 2nd Smallest_49
+      rect:
+        serializedVersion: 2
+        x: 6579
+        y: 1.5999756
+        width: 731.6
+        height: 601.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f01a60f2d6ecb00800000000000000
+      internalID: 850737428361711485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
