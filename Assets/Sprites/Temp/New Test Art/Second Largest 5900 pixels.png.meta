@@ -1,0 +1,840 @@
+fileFormatVersion: 2
+guid: 1c2a615d5abae4f44acb2df5eaad49ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9107481626177990947
+    second: Second Largest 5900 pixels_0
+  - first:
+      213: -5232163063452875949
+    second: Second Largest 5900 pixels_1
+  - first:
+      213: -7823247394461444496
+    second: Second Largest 5900 pixels_2
+  - first:
+      213: -8576186665605004002
+    second: Second Largest 5900 pixels_3
+  - first:
+      213: -3167701506645939999
+    second: Second Largest 5900 pixels_4
+  - first:
+      213: -7825883670698648206
+    second: Second Largest 5900 pixels_5
+  - first:
+      213: -2488483197332066407
+    second: Second Largest 5900 pixels_6
+  - first:
+      213: 1845261407360888965
+    second: Second Largest 5900 pixels_7
+  - first:
+      213: 1284281015293354856
+    second: Second Largest 5900 pixels_8
+  - first:
+      213: -3065897248969865604
+    second: Second Largest 5900 pixels_9
+  - first:
+      213: 284673206326634422
+    second: Second Largest 5900 pixels_10
+  - first:
+      213: -1936387746284666915
+    second: Second Largest 5900 pixels_11
+  - first:
+      213: 8336984597604344425
+    second: Second Largest 5900 pixels_12
+  - first:
+      213: -605893395254708857
+    second: Second Largest 5900 pixels_13
+  - first:
+      213: 1521846961981724595
+    second: Second Largest 5900 pixels_14
+  - first:
+      213: 1703396207166058518
+    second: Second Largest 5900 pixels_15
+  - first:
+      213: -3941687682515613245
+    second: Second Largest 5900 pixels_16
+  - first:
+      213: -4881230961271251766
+    second: Second Largest 5900 pixels_17
+  - first:
+      213: 3516243119674642514
+    second: Second Largest 5900 pixels_18
+  - first:
+      213: 5629576852786574583
+    second: Second Largest 5900 pixels_19
+  - first:
+      213: -9016222268656657381
+    second: Second Largest 5900 pixels_20
+  - first:
+      213: -246701731411032932
+    second: Second Largest 5900 pixels_21
+  - first:
+      213: 2802884049958811378
+    second: Second Largest 5900 pixels_22
+  - first:
+      213: 8550975855765952290
+    second: Second Largest 5900 pixels_23
+  - first:
+      213: -8625705834894783416
+    second: Second Largest 5900 pixels_24
+  - first:
+      213: -7785078956060389674
+    second: Second Largest 5900 pixels_25
+  - first:
+      213: 5916559843431414726
+    second: Second Largest 5900 pixels_26
+  - first:
+      213: 4917051780753514464
+    second: Second Largest 5900 pixels_27
+  - first:
+      213: 4873202146933975429
+    second: Second Largest 5900 pixels_28
+  - first:
+      213: 671756532663976792
+    second: Second Largest 5900 pixels_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3247.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3217cb61946446e70800000000000000
+      internalID: 9107481626177990947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_1
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 3247.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353c8fb3a6f9367b0800000000000000
+      internalID: -5232163063452875949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_2
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 3247.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076102fa1fd3e6390800000000000000
+      internalID: -7823247394461444496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_3
+      rect:
+        serializedVersion: 2
+        x: 2961
+        y: 3247.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e150c2d8aa34bf880800000000000000
+      internalID: -8576186665605004002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_4
+      rect:
+        serializedVersion: 2
+        x: 3948
+        y: 3247.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e826ed43401a04d0800000000000000
+      internalID: -3167701506645939999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_5
+      rect:
+        serializedVersion: 2
+        x: 4935
+        y: 3247.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d1a7ac340e46390800000000000000
+      internalID: -7825883670698648206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2436.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f6e7177b1277dd0800000000000000
+      internalID: -2488483197332066407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_7
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 2436.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580bb7f297fab9910800000000000000
+      internalID: 1845261407360888965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_8
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 2436.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863a65c67cea2d110800000000000000
+      internalID: 1284281015293354856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_9
+      rect:
+        serializedVersion: 2
+        x: 2961
+        y: 2436.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76cd4522beb375d0800000000000000
+      internalID: -3065897248969865604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_10
+      rect:
+        serializedVersion: 2
+        x: 3948
+        y: 2436.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7ab2cd5cc53f300800000000000000
+      internalID: 284673206326634422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_11
+      rect:
+        serializedVersion: 2
+        x: 4935
+        y: 2436.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf784baa919025e0800000000000000
+      internalID: -1936387746284666915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1625.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9622c1ef15be2b370800000000000000
+      internalID: 8336984597604344425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_13
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1625.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785761cca2f6797f0800000000000000
+      internalID: -605893395254708857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_14
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 1625.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b79d63bfbfae1510800000000000000
+      internalID: 1521846961981724595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_15
+      rect:
+        serializedVersion: 2
+        x: 2961
+        y: 1625.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61071ef43dda3a710800000000000000
+      internalID: 1703396207166058518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_16
+      rect:
+        serializedVersion: 2
+        x: 3948
+        y: 1625.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9cf1ccfef4c49c0800000000000000
+      internalID: -3941687682515613245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_17
+      rect:
+        serializedVersion: 2
+        x: 4935
+        y: 1625.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accd9c67d42624cb0800000000000000
+      internalID: -4881230961271251766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 814.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2505e1ccc743cc030800000000000000
+      internalID: 3516243119674642514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_19
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 814.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4fa122256402e40800000000000000
+      internalID: 5629576852786574583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_20
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 814.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cd0ccdd91ffd280800000000000000
+      internalID: -9016222268656657381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_21
+      rect:
+        serializedVersion: 2
+        x: 2961
+        y: 814.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9485c5151a839cf0800000000000000
+      internalID: -246701731411032932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_22
+      rect:
+        serializedVersion: 2
+        x: 3948
+        y: 814.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f637607138d5e620800000000000000
+      internalID: 2802884049958811378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_23
+      rect:
+        serializedVersion: 2
+        x: 4935
+        y: 814.2
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2271fdd5c3b2ba670800000000000000
+      internalID: 8550975855765952290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.2000122
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c051e7e365b4880800000000000000
+      internalID: -8625705834894783416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_25
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 3.2000122
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dec6a3cfe7d5f390800000000000000
+      internalID: -7785078956060389674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_26
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 3.2000122
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbf11094d7db1250800000000000000
+      internalID: 5916559843431414726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_27
+      rect:
+        serializedVersion: 2
+        x: 2961
+        y: 3.2000122
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efd30efa80ec3440800000000000000
+      internalID: 4917051780753514464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_28
+      rect:
+        serializedVersion: 2
+        x: 3948
+        y: 3.2000122
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589aba6888711a340800000000000000
+      internalID: 4873202146933975429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Second Largest 5900 pixels_29
+      rect:
+        serializedVersion: 2
+        x: 4935
+        y: 3.2000122
+        width: 987.6667
+        height: 811.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8530cf0e10f825900800000000000000
+      internalID: 671756532663976792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
