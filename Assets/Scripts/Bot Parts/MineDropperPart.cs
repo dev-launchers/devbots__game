@@ -47,8 +47,6 @@ public class MineDropperPart : BotPart
                 // call a destroy function on landmineInstance
 
                 //TODO: Set landmine knockback
-
-                controller.PlayAudio("Hit");
             }
         }
     }
