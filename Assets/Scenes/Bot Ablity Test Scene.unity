@@ -594,12 +594,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2166753229591355257, guid: 44c68ed773577014da0e71300ad0ee46,
         type: 3}
+      propertyPath: m_Size.x
+      value: 7.9023848
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166753229591355257, guid: 44c68ed773577014da0e71300ad0ee46,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 6.4940004
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166753229591355257, guid: 44c68ed773577014da0e71300ad0ee46,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166753229591355257, guid: 44c68ed773577014da0e71300ad0ee46,
+        type: 3}
       propertyPath: m_DrawMode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2166753229591355257, guid: 44c68ed773577014da0e71300ad0ee46,
         type: 3}
       propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166753229591355257, guid: 44c68ed773577014da0e71300ad0ee46,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3046065967157217457, guid: 44c68ed773577014da0e71300ad0ee46,
@@ -614,10 +634,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7336568193227967748, guid: 44c68ed773577014da0e71300ad0ee46,
         type: 3}
+      propertyPath: m_Size.x
+      value: 7.9023848
+      objectReference: {fileID: 0}
+    - target: {fileID: 7336568193227967748, guid: 44c68ed773577014da0e71300ad0ee46,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 6.4940004
+      objectReference: {fileID: 0}
+    - target: {fileID: 7336568193227967748, guid: 44c68ed773577014da0e71300ad0ee46,
+        type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -8849432191084026814, guid: a76b7d7419cf4a149b6dab168831a0f8,
+      objectReference: {fileID: -5648641263243843627, guid: 2df15884f8e337c4898f0089f40226a3,
         type: 3}
+    - target: {fileID: 7336568193227967748, guid: 44c68ed773577014da0e71300ad0ee46,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8001295136021642920, guid: 44c68ed773577014da0e71300ad0ee46,
         type: 3}
       propertyPath: m_RootOrder
@@ -676,7 +711,7 @@ PrefabInstance:
     - target: {fileID: 8571531404378204787, guid: 44c68ed773577014da0e71300ad0ee46,
         type: 3}
       propertyPath: hasAnimation
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44c68ed773577014da0e71300ad0ee46, type: 3}
