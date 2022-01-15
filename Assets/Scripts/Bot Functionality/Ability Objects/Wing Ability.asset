@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Wing Ability
   m_EditorClassIdentifier: 
   abilityName: Wing Flap
-  coolDownTime: 2
-  activeTime: 0.5
+  coolDownTime: 1
+  activeTime: 0.1
   rb: {fileID: 0}
   sensor: {fileID: 0}
   controller: {fileID: 0}
-  forceOfMovement: {x: 2, y: 2}
+  forceOfMovement: {x: 1, y: 8}

@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ability: {fileID: 0}
-  isRunning: 1
+  isRunning: 0
 --- !u!1 &516336940175611470
 GameObject:
   m_ObjectHideFlags: 0

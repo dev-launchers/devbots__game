@@ -22,7 +22,7 @@ public class BotAbilityHolder : MonoBehaviour
 
     private float activeTime;
 
-    [SerializeField] private bool isRunning;
+    [SerializeField] private bool isRunning = false;
     // Update is called once per frame
     void Update()
     {

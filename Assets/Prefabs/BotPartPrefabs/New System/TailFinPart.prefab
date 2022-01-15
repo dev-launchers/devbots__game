@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ability: {fileID: 11400000, guid: 84a7129fc2f55e54a957e6e604ec6e0b, type: 2}
-  isRunning: 1
+  isRunning: 0
 --- !u!1 &4502626455940063099
 GameObject:
   m_ObjectHideFlags: 0
@@ -115,7 +115,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -786320585
-  m_SortingLayer: 2
+  m_SortingLayer: 4
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: c8e2bc293294a6640ae2ced2393eea87, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

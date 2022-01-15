@@ -38,25 +38,33 @@ public class Projectile : MonoBehaviour
         speed = spd; //Set the speed of the projectile
         gameObject.transform.localScale = size; //Set the projectile size
         enemyLayer = layer; //Set the target of the projectile, so it only hits the desired bot, will likely need to be array of layers for self-damaging items 
+
+        CreateForce();
     }
 
-  /*  private void OnCollisionEnter2D(Collision2D collision)
+    private void CreateForce()
     {
-        //Check what layer collided game object is
-        if (collision.gameObject.layer == enemyLayer)
-        {
-            //event invoke for unity event. can add to in editor
-            //projectileColisionEvent.Invoke();   
+        rb = GetComponent<Rigidbody2D>();
+        rb.AddForce(new Vector2(enemyDirection * speed, 0), ForceMode2D.Impulse);
+    }
 
-            //Deal damage to collided enemy
-            collision.gameObject.GetComponent<BotController>().TakeDamage(damage);
-        }
+    /*  private void OnCollisionEnter2D(Collision2D collision)
+      {
+          //Check what layer collided game object is
+          if (collision.gameObject.layer == enemyLayer)
+          {
+              //event invoke for unity event. can add to in editor
+              //projectileColisionEvent.Invoke();   
 
-        //Destroy projectile
-        Destroy(this.gameObject);
+              //Deal damage to collided enemy
+              collision.gameObject.GetComponent<BotController>().TakeDamage(damage);
+          }
+
+          //Destroy projectile
+          Destroy(this.gameObject);
 
 
-    }*/
+      }*/
 
     //For an exploding bullet: 
     //Collider2D collision = Physics2D.OverlapCircle(new Vector2 (0,0), 1, "Bot"); 

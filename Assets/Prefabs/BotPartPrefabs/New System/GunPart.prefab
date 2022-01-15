@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ability: {fileID: 11400000, guid: f06f68bb33bfd7340a17a5540970d2fd, type: 2}
-  isRunning: 1
+  isRunning: 0
 --- !u!114 &4299799854100627089
 MonoBehaviour:
   m_ObjectHideFlags: 0
