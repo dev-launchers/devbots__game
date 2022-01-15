@@ -16,13 +16,13 @@ public class BotAbilityHolder : MonoBehaviour
     private const string ACTIVE = "active";
     private const string COOLDOWN = "cooldown";
     
-    private AbilityState state;
+    private AbilityState state = AbilityState.Active;
     
     [SerializeField]private BotAbility ability;
 
     private float coolDownTime;
 
-    private float activeTime=0;
+    private float activeTime = 0;
 
     [SerializeField] private bool isRunning;
     [SerializeField] private bool hasAnimation;
@@ -37,6 +37,7 @@ public class BotAbilityHolder : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        activeTime += Time.deltaTime;
         switch(state)
         {
             case AbilityState.Ready:

@@ -15,11 +15,11 @@ public class Slots
     //List of all the slots
     private List<GameObject> slots;
 
-
-    public Slots()
+    public void Initialize()
     {
         SetSlots();
     }
+
     //Initiate slots list by adding all slots to list
     private void SetSlots()
     {
@@ -61,7 +61,7 @@ public class Slots
     public bool IsBotPartInSlot(SlotPosition slotPosition)
     {
         //get slot using slot position
-        var slot = GetSlot(slotPosition);
+        GameObject slot = GetSlot(slotPosition);
         return slot.GetComponent<BotPart>();
     }
 
@@ -69,7 +69,7 @@ public class Slots
     public void SetSlotBotPart(SlotPosition slotPosition, GameObject botPartGameObject)
     {
         //get slot using slot position
-        var slot = GetSlot(slotPosition);
+        GameObject slot = GetSlot(slotPosition);
         //check if any other gameobjects are located on this slot
         if (slot.transform.childCount > 0)
         {
@@ -92,6 +92,11 @@ public class Slots
     {
         GameObject slot = GetSlot(slotPosition);
         return slot.GetComponentInChildren<BotPart>();
+    }
+
+    public List<GameObject> GetSlotsList()
+    {
+        return slots;   
     }
 
 }
