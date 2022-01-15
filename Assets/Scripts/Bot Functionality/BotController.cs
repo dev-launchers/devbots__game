@@ -1,9 +1,10 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
-public class BotController : MonoBehaviour
+public class BotController : MonoBehaviour, IHurtResponder
 {
     private BotSensor sensor;
     //private AudioManager audioManager;
@@ -15,6 +16,9 @@ public class BotController : MonoBehaviour
     public Slots slots;
     //bool used to determine whether this bot has already been created
     public static bool created = false;
+
+    private List<Bot_Hurtbox> m_hurtboxes = new List<Bot_Hurtbox>(); // If there are multiple hurtboxese per sprite, place this script in the most parent bot object.
+
     //Get this bot's current HP
     public float GetGetHP()
     {
@@ -30,12 +34,12 @@ public class BotController : MonoBehaviour
     }
 
     public void Start()
-    {        
-     sensor = GetComponent<BotSensor>();
+    {
+        sensor = GetComponent<BotSensor>();
         if (!created && sensor.IsPlayer())
         {
             //if this bot hasn't been created add it to dontdestroy on load
-      DontDestroyOnLoad(this);
+            DontDestroyOnLoad(this);
             created = true;
         }
         else if(sensor.IsPlayer())
@@ -47,6 +51,13 @@ public class BotController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         if (DamageTakenEvent == null)
             DamageTakenEvent = new UnityEvent();
+
+        m_hurtboxes = new List<Bot_Hurtbox>(GetComponentsInChildren<Bot_Hurtbox>());
+        Debug.Log(this.gameObject.name + " Hurtresponder's start function");
+        foreach (Bot_Hurtbox _hurtbox in m_hurtboxes)
+        {
+            _hurtbox.hurtResponder = this;
+        }
 
     }
 
@@ -103,6 +114,7 @@ public class BotController : MonoBehaviour
     public void ApplyForce(Vector3 force)
     {
         //The desired force is sent by the attacking bot, but may be countered by certain effects
+        Debug.Log("Applying force is active");
         rb.AddRelativeForce(force, ForceMode2D.Impulse);
     }
 
@@ -118,7 +130,8 @@ public class BotController : MonoBehaviour
         if (HP <= 0.0f)
         {
             //start botdestroyed coroutine when bot reaches zero health
-            StartCoroutine(BotDestroyed());
+            /* Commneted out to test collision */
+            //StartCoroutine(BotDestroyed());
 
             //Destroy(sensor.GetNearestSensedBot());
             //Destroy(gameObject);
@@ -150,5 +163,16 @@ public class BotController : MonoBehaviour
         {
             SceneHandler.LoadVictoryScene();
         }
+    }
+
+    public bool CheckHit(HitData hitData)
+    {
+        Debug.Log("Validating hit inside botcontroller");
+        return true;
+    }
+
+    public void Response(HitData hitData)
+    {
+        Debug.Log(this.gameObject + " lost " + hitData.damage + " health!");
     }
 }
