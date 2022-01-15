@@ -44,6 +44,7 @@ public class MineDropperPart : BotPart
                 //Tells landmine values
                 projectileScript.SetValues(damage, projectileSize, enemyLayer);
                 
+                // call a destroy function on landmineInstance
 
                 //TODO: Set landmine knockback
             }
