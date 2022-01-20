@@ -26,18 +26,20 @@ public class BotAbilityHolder : MonoBehaviour
 
     [SerializeField] private bool isRunning;
     [SerializeField] private bool hasAnimation;
+    [Tooltip("Does the bot animation control when the bot ability is called?")]
+    [SerializeField] private bool animationActivesAbility;
     private Animator animator;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
-        SwitchToCooldown();//start in cooldown state
+        //SwitchToCooldown();//start in cooldown state
     }
 
     // Update is called once per frame
     void Update()
     {
-        activeTime += Time.deltaTime;
+        
         switch(state)
         {
             case AbilityState.Ready:
@@ -48,7 +50,7 @@ public class BotAbilityHolder : MonoBehaviour
                 break;
             
             case AbilityState.Active:
-                if(!hasAnimation)
+                //if(!hasAnimation) ASK QUESTIONS ABOUT WHY???
                     if (activeTime > 0) activeTime -= Time.deltaTime;
                     else
                     {
@@ -86,8 +88,15 @@ public class BotAbilityHolder : MonoBehaviour
 
     public void SwitchToActive()
     {
-        ability.Activate(gameObject);
+        if(!animationActivesAbility) ability.Activate(gameObject);
         state = AbilityState.Active;
         activeTime = ability.activeTime;
+    }
+
+    //this function is meant to be called within animation clip of the bot part's active state in its animation override controller. 
+    public void ActivateAbility()
+    {
+        Debug.Log(ability.abilityName+" : Manual ability activation called");
+        ability.Activate(gameObject);
     }
 }

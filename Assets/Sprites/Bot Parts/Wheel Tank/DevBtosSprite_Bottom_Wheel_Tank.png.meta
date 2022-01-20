@@ -1,0 +1,840 @@
+fileFormatVersion: 2
+guid: 55203aa209040cd4d86767b4d97bb36d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3150848948405557634
+    second: DevBtosSprite_Bottom_Wheel_Tank_0
+  - first:
+      213: -2089524842383197088
+    second: DevBtosSprite_Bottom_Wheel_Tank_1
+  - first:
+      213: -4033471894123496649
+    second: DevBtosSprite_Bottom_Wheel_Tank_2
+  - first:
+      213: -1229641857965951868
+    second: DevBtosSprite_Bottom_Wheel_Tank_3
+  - first:
+      213: 8605986195619732258
+    second: DevBtosSprite_Bottom_Wheel_Tank_4
+  - first:
+      213: -5713077689316136443
+    second: DevBtosSprite_Bottom_Wheel_Tank_5
+  - first:
+      213: 4781291106327633767
+    second: DevBtosSprite_Bottom_Wheel_Tank_6
+  - first:
+      213: 6776207895568525506
+    second: DevBtosSprite_Bottom_Wheel_Tank_7
+  - first:
+      213: -6050404833004863668
+    second: DevBtosSprite_Bottom_Wheel_Tank_8
+  - first:
+      213: 5500129383125065360
+    second: DevBtosSprite_Bottom_Wheel_Tank_9
+  - first:
+      213: 7715515524099313622
+    second: DevBtosSprite_Bottom_Wheel_Tank_10
+  - first:
+      213: -886577806148344052
+    second: DevBtosSprite_Bottom_Wheel_Tank_11
+  - first:
+      213: 6577080154848294727
+    second: DevBtosSprite_Bottom_Wheel_Tank_12
+  - first:
+      213: -7685938296937461226
+    second: DevBtosSprite_Bottom_Wheel_Tank_13
+  - first:
+      213: 1417254602232553757
+    second: DevBtosSprite_Bottom_Wheel_Tank_14
+  - first:
+      213: -8500166113822992854
+    second: DevBtosSprite_Bottom_Wheel_Tank_15
+  - first:
+      213: -3088556598616216401
+    second: DevBtosSprite_Bottom_Wheel_Tank_16
+  - first:
+      213: -9010474801486774313
+    second: DevBtosSprite_Bottom_Wheel_Tank_17
+  - first:
+      213: -4656368408755073320
+    second: DevBtosSprite_Bottom_Wheel_Tank_18
+  - first:
+      213: 1590510088969970966
+    second: DevBtosSprite_Bottom_Wheel_Tank_19
+  - first:
+      213: -808154621212714071
+    second: DevBtosSprite_Bottom_Wheel_Tank_20
+  - first:
+      213: -3658026458875514657
+    second: DevBtosSprite_Bottom_Wheel_Tank_21
+  - first:
+      213: 7470394234244356269
+    second: DevBtosSprite_Bottom_Wheel_Tank_22
+  - first:
+      213: -7061216557951071636
+    second: DevBtosSprite_Bottom_Wheel_Tank_23
+  - first:
+      213: -820240394907183012
+    second: DevBtosSprite_Bottom_Wheel_Tank_24
+  - first:
+      213: 955043983942504585
+    second: DevBtosSprite_Bottom_Wheel_Tank_25
+  - first:
+      213: 7446741749318430454
+    second: DevBtosSprite_Bottom_Wheel_Tank_26
+  - first:
+      213: -5665068285584638566
+    second: DevBtosSprite_Bottom_Wheel_Tank_27
+  - first:
+      213: 5628539867428117423
+    second: DevBtosSprite_Bottom_Wheel_Tank_28
+  - first:
+      213: 6907822920375292551
+    second: DevBtosSprite_Bottom_Wheel_Tank_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1826.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28950a6bc601abb20800000000000000
+      internalID: 3150848948405557634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_1
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 1826.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c35640a348003e0800000000000000
+      internalID: -2089524842383197088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_2
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 1826.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b3f3bbeaa3608c0800000000000000
+      internalID: -4033471894123496649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_3
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 1826.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484fcfebe3f6feee0800000000000000
+      internalID: -1229641857965951868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_4
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 1826.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b54d339da9e6770800000000000000
+      internalID: 8605986195619732258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_5
+      rect:
+        serializedVersion: 2
+        x: 4765
+        y: 1826.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a2a1a5c1217b0b0800000000000000
+      internalID: -5713077689316136443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1370.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f9468cdee8a5240800000000000000
+      internalID: 4781291106327633767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_7
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 1370.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c82f8bdd2de90e50800000000000000
+      internalID: 6776207895568525506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_8
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 1370.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f307d5cd4a80ca0800000000000000
+      internalID: -6050404833004863668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_9
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 1370.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e9bd37882645c40800000000000000
+      internalID: 5500129383125065360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_10
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 1370.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df83f89d74031b60800000000000000
+      internalID: 7715515524099313622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_11
+      rect:
+        serializedVersion: 2
+        x: 4765
+        y: 1370.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0768cebe2e32b3f0800000000000000
+      internalID: -886577806148344052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 914.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747f001dd8b764b50800000000000000
+      internalID: 6577080154848294727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_13
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 914.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ac87d37df065590800000000000000
+      internalID: -7685938296937461226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_14
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 914.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11eb524d891ba310800000000000000
+      internalID: 1417254602232553757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_15
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 914.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2694cd84f7590a80800000000000000
+      internalID: -8500166113822992854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_16
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 914.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facaace232e3325d0800000000000000
+      internalID: -3088556598616216401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_17
+      rect:
+        serializedVersion: 2
+        x: 4765
+        y: 914.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfb5c758ec54f280800000000000000
+      internalID: -9010474801486774313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 458.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de8dcc4a91416fb0800000000000000
+      internalID: -4656368408755073320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_19
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 458.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615eab0cf70a21610800000000000000
+      internalID: 1590510088969970966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_20
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 458.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab960f57abd8c4f0800000000000000
+      internalID: -808154621212714071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_21
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 458.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0beb311541c3dc0800000000000000
+      internalID: -3658026458875514657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_22
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 458.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8d248e9fb2ca760800000000000000
+      internalID: 7470394234244356269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_23
+      rect:
+        serializedVersion: 2
+        x: 4765
+        y: 458.4
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a4835d3f4810e90800000000000000
+      internalID: -7061216557951071636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.399994
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c589127e4bbed94f0800000000000000
+      internalID: -820240394907183012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_25
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 2.399994
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98054cf717ff04d00800000000000000
+      internalID: 955043983942504585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_26
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 2.399994
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe223e9a24285760800000000000000
+      internalID: 7446741749318430454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_27
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 2.399994
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d7569b862a161b0800000000000000
+      internalID: -5665068285584638566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_28
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 2.399994
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab5d2a20379c1e40800000000000000
+      internalID: 5628539867428117423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DevBtosSprite_Bottom_Wheel_Tank_29
+      rect:
+        serializedVersion: 2
+        x: 4765
+        y: 2.399994
+        width: 953.6667
+        height: 456.6
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782554cc8548ddf50800000000000000
+      internalID: 6907822920375292551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
