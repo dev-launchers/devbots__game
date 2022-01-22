@@ -48,23 +48,23 @@ public class Projectile : MonoBehaviour
         rb.AddForce(new Vector2(enemyDirection * speed, 0), ForceMode2D.Impulse);
     }
 
-    /*  private void OnCollisionEnter2D(Collision2D collision)
-      {
-          //Check what layer collided game object is
-          if (collision.gameObject.layer == enemyLayer)
-          {
-              //event invoke for unity event. can add to in editor
-              //projectileColisionEvent.Invoke();   
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        //Check what layer collided game object is
+        if (collision.gameObject.layer == enemyLayer)
+        {
+            //event invoke for unity event. can add to in editor
+            //projectileColisionEvent.Invoke();   
 
-              //Deal damage to collided enemy
-              collision.gameObject.GetComponent<BotController>().TakeDamage(damage);
-          }
+            //Deal damage to collided enemy
+            collision.gameObject.GetComponent<BotController>().TakeDamage(damage);
+        }
 
-          //Destroy projectile
-          Destroy(this.gameObject);
+        //Destroy projectile
+        Destroy(this.gameObject);
 
 
-      }*/
+    }
 
     //For an exploding bullet: 
     //Collider2D collision = Physics2D.OverlapCircle(new Vector2 (0,0), 1, "Bot"); 

@@ -57,4 +57,9 @@ public class BotAbilityHolder : MonoBehaviour
                 break;
         }
     }
+
+    public void SetState(State state)
+    {
+        isRunning = state.isActive;
+    }
 }
