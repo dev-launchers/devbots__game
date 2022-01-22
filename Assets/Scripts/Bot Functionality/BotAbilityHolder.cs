@@ -43,7 +43,6 @@ public class BotAbilityHolder : MonoBehaviour
                 {
                     state = AbilityState.Cooldown;
                     coolDownTime = ability.coolDownTime;
-                    Debug.Log("Cooldown");
                 }
                 break;
             
@@ -51,7 +50,6 @@ public class BotAbilityHolder : MonoBehaviour
                 if (coolDownTime > 0) coolDownTime -= Time.deltaTime;
                 else
                 {
-                    Debug.Log("Ready");
                     state = AbilityState.Ready;
                 }
                 break;
