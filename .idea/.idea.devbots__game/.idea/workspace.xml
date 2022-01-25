@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eed4f246-e10e-4789-b1d2-2df40b755a2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.devbots__game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.devbots__game/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="eed4f246-e10e-4789-b1d2-2df40b755a2f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +46,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/TeleportAbility.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotAbilityHolder.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Collision/HitEffect.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Collision/Hurtbox.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Collision/Hitbox.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zezugiXn2pzia2up4MUAlPjxju" />
@@ -110,7 +110,7 @@
       <workItem from="1636215149630" duration="1118000" />
       <workItem from="1636704286918" duration="6110000" />
       <workItem from="1639839316338" duration="1873000" />
-      <workItem from="1643122777703" duration="551000" />
+      <workItem from="1643122777703" duration="857000" />
     </task>
     <servers />
   </component>
