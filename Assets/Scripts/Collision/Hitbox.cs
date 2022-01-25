@@ -8,6 +8,8 @@ public class Hitbox : MonoBehaviour
     [SerializeField] private Collider2D collider;
     [SerializeField] private HurtboxMask hurtMask;
     [SerializeField] private float radius = 0;
+    [SerializeField] private List<HitEffect> effects;
+    
 
     // [SerializeField] private hitEffects<> hitEffects;
     private void OnTriggerEnter2D(Collider2D collision)
@@ -18,7 +20,7 @@ public class Hitbox : MonoBehaviour
         if (hurtbox == null) return;
         
         Debug.Log("Successfull hit" + collider.name);
-        hurtbox.CheckHit(collider, hurtMask /* hitEffects */);
+        hurtbox.CheckHit(collider, hurtMask, effects);
         
     }
 
