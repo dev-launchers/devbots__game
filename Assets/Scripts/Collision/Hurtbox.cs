@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Hurtbox : MonoBehaviour
@@ -13,7 +14,7 @@ public class Hurtbox : MonoBehaviour
         // hurtBoxLayer might need to be changed so that Player, Enemy and Ally Hurtbox Types are allocated correctly
     }
 
-    public bool CheckHit(Collider2D collider, HurtboxMask enemyHurtMask)
+    public bool CheckHit(Collider2D collider, HurtboxMask enemyHurtMask, List<HitEffect> effects)
     {
         Debug.Log("Checking for hitmask match in " + this.name);
         if (enemyHurtMask == (HurtboxMask)hurtBoxType)
