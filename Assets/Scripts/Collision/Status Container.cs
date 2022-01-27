@@ -28,7 +28,7 @@ public class StatusContainer : MonoBehaviour
     {
         
     }
-    void HandleCollision(IHitBox hitBox,IHurtbox hurtbox)
+    void HandleCollision(Hitbox hitBox,Hurtbox hurtbox)
     {
         throw new System.NotImplementedException();
     }
