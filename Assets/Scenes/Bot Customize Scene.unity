@@ -373,9 +373,9 @@ MonoBehaviour:
   targetSlot: {fileID: 721326016}
   slotPosition: 3
   options:
-  - {fileID: 5726450835038516284, guid: e7c847d38fb666144a7d4be0cc5b25a5, type: 3}
-  - {fileID: 5497557742926636410, guid: e2f62a27fccbbb048bf103c6fc8509aa, type: 3}
-  - {fileID: 5892647743088392934, guid: acb70fdc3b5a94844a4b5a00f1131c1b, type: 3}
+  - {fileID: 2648814509763072191, guid: 589185a2177e7704cabae074ab39629b, type: 3}
+  - {fileID: 8581578868216085882, guid: 87f5ae5df5a438c49bc5e71e3529ba5b, type: 3}
+  - {fileID: 5892647743088392934, guid: fb1bd1e58ddf6cd498445d1222867bdf, type: 3}
 --- !u!1 &241463175
 GameObject:
   m_ObjectHideFlags: 0
@@ -2902,8 +2902,8 @@ MonoBehaviour:
   targetSlot: {fileID: 1025444609}
   slotPosition: 2
   options:
-  - {fileID: 9114244139634852574, guid: b80df119c99d20a49a7afe7942721bc5, type: 3}
-  - {fileID: 7051656910441631177, guid: 8922f54146e48a54eb7533cc225050b3, type: 3}
+  - {fileID: 9190790170768269290, guid: ffeec9d1488b92447b728a11a6c6c429, type: 3}
+  - {fileID: 516336940138910769, guid: 73d87ef285cc95746a427a9968421b9c, type: 3}
 --- !u!1 &1339632217
 GameObject:
   m_ObjectHideFlags: 0
@@ -3568,9 +3568,9 @@ MonoBehaviour:
   targetSlot: {fileID: 1214146723}
   slotPosition: 0
   options:
-  - {fileID: 3817190511831013865, guid: 62df28314e4ec8448bb40917857c412f, type: 3}
-  - {fileID: 7558703669535436776, guid: f9e2cb24d34221947b4273e137365d09, type: 3}
-  - {fileID: 1788979460480912857, guid: ab483e9994918114e88b1d6ce0e87e88, type: 3}
+  - {fileID: 4299799854100627088, guid: 8333fe67a832c6b43a69cdc70e74e93a, type: 3}
+  - {fileID: 6785531181590155661, guid: 707d52d15db31aa4680d171e2dd018c1, type: 3}
+  - {fileID: 3298103172171777943, guid: 5403df04015128e448b261b01d6a32d8, type: 3}
 --- !u!1 &1605588758
 GameObject:
   m_ObjectHideFlags: 0
@@ -3600,37 +3600,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a81e1bd4c27c2ac49b1fa60c6b9974c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds:
-  - name: Hit
-    clip: {fileID: 8300000, guid: 0ed444e1281950c43bc73de52dcfeb47, type: 3}
-    volume: 0.4
-    pitch: 0.5
-    loop: 0
-    source: {fileID: 0}
-  - name: Move
-    clip: {fileID: 8300000, guid: a8a503b68c41143489922faafecc8643, type: 3}
-    volume: 0.5
-    pitch: 1
-    loop: 0
-    source: {fileID: 0}
-  - name: Death
-    clip: {fileID: 8300000, guid: d5269e555c97ecc44a11461cbb280bfe, type: 3}
-    volume: 0.6
-    pitch: 0.6
-    loop: 0
-    source: {fileID: 0}
-  - name: Music_Battle
-    clip: {fileID: 8300000, guid: b39fb6d8430419044b638ef142720200, type: 3}
-    volume: 0.3
-    pitch: 1
-    loop: 1
-    source: {fileID: 0}
-  - name: Music_Menu
-    clip: {fileID: 8300000, guid: b3a20d65cdf877645a8d30173551ce67, type: 3}
-    volume: 0.3
-    pitch: 1
-    loop: 1
-    source: {fileID: 0}
 --- !u!4 &1605588760
 Transform:
   m_ObjectHideFlags: 0

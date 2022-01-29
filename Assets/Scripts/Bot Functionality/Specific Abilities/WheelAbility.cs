@@ -13,6 +13,8 @@ public class WheelAbility : MoveAbility
         rb = parent.gameObject.GetComponentInParent<Rigidbody2D>();
         sensor = parent.GetComponentInParent<BotSensor>();
         controller = parent.GetComponentInParent<BotController>();
+
+
         int enemyDirection = sensor.GetNearestSensedBotDirection();
         int currentDirection = enemyDirection;
         
