@@ -19,8 +19,7 @@ public class Hurtbox : MonoBehaviour
         Debug.Log("Checking for hitmask match in " + this.name);
         if (enemyHurtMask == (HurtboxMask)hurtBoxType)
         {
-            // HitEffects<> enemyHitEffects = collider.GetComponent<HitEffects>();
-            HitResponse(/*enemyHitEffects*/);
+            HitResponse(effects);
             return true;
         }
 
@@ -28,11 +27,12 @@ public class Hurtbox : MonoBehaviour
     }
 
     /* This function is called on collision of another hitbox. It will take the hiteffect and the  */
-    private void HitResponse(/*HitEffect<> hitEffects */)
+    public void HitResponse(List<HitEffect> effects)
     {
-        Debug.Log(this.name + " was hit!");
-        /* Pseudocode  */
-        // statusContainer.addEffect(hitEffects);
+        foreach(HitEffect effect in effects)
+        {
+            effect.PerformEffect(gameObject);
+        }
     }
 
 }

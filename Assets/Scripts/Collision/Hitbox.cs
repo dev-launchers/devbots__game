@@ -21,7 +21,7 @@ public class Hitbox : MonoBehaviour
         
         Debug.Log("Successfull hit" + collider.name);
         hurtbox.CheckHit(collider, hurtMask, effects);
-        
+
     }
 
     private void CheckHit()

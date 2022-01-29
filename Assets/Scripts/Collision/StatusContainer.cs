@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 [System.Flags]
 public enum DamageType
 {
@@ -16,6 +17,7 @@ public class StatusContainer : MonoBehaviour
 {
    [SerializeField] DamageType type = DamageType.None;
     List<HitEffect> _hitEffects;
+    float health = 50;
         
     // Start is called before the first frame update
     void Start()
@@ -28,14 +30,23 @@ public class StatusContainer : MonoBehaviour
     {
         
     }
-    void HandleCollision(Hitbox hitBox,Hurtbox hurtbox)
+    public void HandleCollision(Hitbox hitBox,Hurtbox hurtbox)
     {
-        throw new System.NotImplementedException();
+        hurtbox.HitResponse(_hitEffects);
     }
 
-    void PopulateLisst(List<HitEffect> hitEffects)
+    void PopulateList(List<HitEffect> hitEffects)
     {
-        throw new System.NotImplementedException();
+        _hitEffects = hitEffects;
+    }
 
+    void AddEffect(HitEffect hitEffect)
+    {
+        _hitEffects.Add(hitEffect);
+    }
+    
+    void RemoveEffect(HitEffect hitEffect)
+    {
+        _hitEffects.Remove(hitEffect);
     }
 }
