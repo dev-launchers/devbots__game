@@ -18,7 +18,7 @@ public class Hitbox : MonoBehaviour
         
         Debug.Log("Collided");
         Hurtbox hurtbox = collision.gameObject.GetComponentInChildren<Hurtbox>();
-        if (hurtbox == null) hurtbox = collision.gameObject.GetComponent<Hurtbox>();
+        if (hurtbox == null) hurtbox = collision.gameObject.GetComponent<Hurtbox>();// in case the hurtbox is not on the child.
         if (hurtbox == null) return;
         
         Debug.Log("Successfull hit on" + collider.name);

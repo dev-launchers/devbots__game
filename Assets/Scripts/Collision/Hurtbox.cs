@@ -21,6 +21,10 @@ public class Hurtbox : MonoBehaviour
         {
             // HitEffects<> enemyHitEffects = collider.GetComponent<HitEffects>();
             HitResponse(/*enemyHitEffects*/);
+            foreach (HitEffect e in effects)
+            {
+                e.PerformEffect(gameObject);
+            }
             return true;
         }
 
