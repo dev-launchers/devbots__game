@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eed4f246-e10e-4789-b1d2-2df40b755a2f" name="Default Changelist" comment="" />
+    <list default="true" id="eed4f246-e10e-4789-b1d2-2df40b755a2f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.devbots__game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.devbots__game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sachin_Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sachin_Test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Collision/HitEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Collision/HitEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Collision/Hitbox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Collision/Hitbox.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +16,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/WheelAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/TeleportAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/DrillAbility.cs" root0="FORCE_HIGHLIGHTING" />
@@ -45,8 +51,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/TeslaAbility.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/TeleportAbility.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotAbilityHolder.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Collision/HitEffect.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Collision/Hurtbox.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Collision/HitEffect.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Collision/Hitbox.cs" />
     </changedPaths>
   </component>

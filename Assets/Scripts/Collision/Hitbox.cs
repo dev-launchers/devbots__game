@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,16 +15,18 @@ public class Hitbox : MonoBehaviour
     // [SerializeField] private hitEffects<> hitEffects;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Hurtbox hurtbox = collision.gameObject.GetComponentInChildren<Hurtbox>();
+        
         Debug.Log("Collided");
-
+        Hurtbox hurtbox = collision.gameObject.GetComponentInChildren<Hurtbox>();
+        if (hurtbox == null) hurtbox = collision.gameObject.GetComponent<Hurtbox>();
         if (hurtbox == null) return;
         
-        Debug.Log("Successfull hit" + collider.name);
+        Debug.Log("Successfull hit on" + collider.name);
         hurtbox.CheckHit(collider, hurtMask, effects);
         
     }
 
+    
     private void CheckHit()
     {
         Physics2D.OverlapCircleAll(collider.transform.position, radius);
