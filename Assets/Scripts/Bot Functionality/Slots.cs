@@ -32,7 +32,7 @@ public class Slots
 
  
     //Get the slot gameobject by using the slotpositioon enum
-    private GameObject GetSlot(SlotPosition slotPosition)
+    public GameObject GetSlot(SlotPosition slotPosition)
     {
         GameObject slot = default(GameObject);
         //match slotposition to correct slot

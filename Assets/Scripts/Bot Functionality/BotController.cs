@@ -46,21 +46,7 @@ public class BotController : MonoBehaviour, IHurtResponder
             DontDestroyOnLoad(this);
             created = true;
         }
-    }
 
-    private void Start()
-    {        
-        //check if this bot is the player and that created variable is false
-        if (sensor.IsPlayer() && created==false)
-        {    //set this bot to not destroy when loading a new scerne
-            DontDestroyOnLoad(gameObject);
-            created = true;
-      
-    //if this bot has been created already destroy this bot
-            //Destroy(this.gameObject);
-
-        }
-  
         rb = GetComponent<Rigidbody2D>();
         if (DamageTakenEvent == null)
             DamageTakenEvent = new UnityEvent();
@@ -90,8 +76,8 @@ public class BotController : MonoBehaviour, IHurtResponder
     /// <param name="loadSceneMode"></param>
     private void OnSceneLoaded(Scene scene,LoadSceneMode loadSceneMode)
     {
-
-
+        rb = GetComponent<Rigidbody2D>();
+        sensor = GetComponent<BotSensor>();
         if (sensor.IsPlayer())
         {
             //check new loaded scene's name

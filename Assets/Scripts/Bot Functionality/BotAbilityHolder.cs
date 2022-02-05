@@ -105,8 +105,9 @@ public class BotAbilityHolder : MonoBehaviour
         state = AbilityState.Active;
         activeTime = ability.activeTime;
                     state = AbilityState.Ready;
-                }
-                break;
-        }
+                
+
+        
+
     }
 }

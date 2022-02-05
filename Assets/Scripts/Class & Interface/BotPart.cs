@@ -10,6 +10,7 @@ public abstract class BotPart : MonoBehaviour
     public abstract void BotPartUpdate();
     abstract public void SetState(State state);
     public BotPartAudio botPartAudio;
+    public bool isRunning;
     //[SerializeField] abstract private bool isRunning;
 
     // These should be protected?
