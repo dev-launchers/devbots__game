@@ -32,11 +32,12 @@ public class Hurtbox : MonoBehaviour
     }
 
     /* This function is called on collision of another hitbox. It will take the hiteffect and the  */
-    private void HitResponse(/*HitEffect<> hitEffects */)
+    public void HitResponse(List<HitEffect> effects)
     {
-        Debug.Log(this.name + " was hit!");
-        /* Pseudocode  */
-        // statusContainer.addEffect(hitEffects);
+        foreach(HitEffect effect in effects)
+        {
+            effect.PerformEffect(gameObject);
+        }
     }
 
 }
