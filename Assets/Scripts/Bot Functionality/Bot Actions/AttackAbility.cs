@@ -26,7 +26,7 @@ public class AttackAbility : BotAbility
         
         //ACTION
         // Set trigger to play animation of sword rotating 
-        animator.SetTrigger("swordAttack");
+        //animator.SetTrigger("swordAttack");
         // add thrust to lunge bot forward 
         Vector2 appliedForce = new Vector2(dir.x * sensor.GetNearestSensedBotDirection(), dir.y);
         rb.AddRelativeForce(appliedForce, ForceMode2D.Impulse);

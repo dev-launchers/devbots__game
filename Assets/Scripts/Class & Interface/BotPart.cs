@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,7 +9,8 @@ public abstract class BotPart : MonoBehaviour
 
     public abstract void BotPartUpdate();
     abstract public void SetState(State state);
-    [SerializeField] protected bool isRunning;
+    public BotPartAudio botPartAudio;
+    //[SerializeField] abstract private bool isRunning;
 
     // These should be protected?
     public float GetCoolDownTimer(){ 

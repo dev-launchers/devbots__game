@@ -69,7 +69,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -786320585
-  m_SortingLayer: 2
+  m_SortingLayer: 4
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c8ba327434f8af44581e0000c1bbec1f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -92,6 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5744848971461229439}
   - component: {fileID: 6674072744478880161}
+  - component: {fileID: -9105553051029680042}
   m_Layer: 0
   m_Name: TeleporterPart
   m_TagString: Untagged
@@ -128,3 +129,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ability: {fileID: 11400000, guid: 93ff68665fedacf4e984e5bfaaaaf89f, type: 2}
   isRunning: 1
+--- !u!95 &-9105553051029680042
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4513267281868790447}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: daae205bdac570d499b75104f8ea6840, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

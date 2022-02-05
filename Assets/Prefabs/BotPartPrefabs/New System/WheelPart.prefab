@@ -69,7 +69,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -786320585
-  m_SortingLayer: 2
+  m_SortingLayer: 4
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 1d771dcd502f0a649af30beca3014be8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -92,6 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1051498062307081786}
   - component: {fileID: 139737165023012183}
+  - component: {fileID: -9200756646422125366}
   m_Layer: 0
   m_Name: WheelPart
   m_TagString: Untagged
@@ -128,3 +129,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ability: {fileID: 11400000, guid: f257ae06be1f82e48a1ddb9691dbdd67, type: 2}
   isRunning: 1
+--- !u!95 &-9200756646422125366
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9190790170768269290}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: daae205bdac570d499b75104f8ea6840, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

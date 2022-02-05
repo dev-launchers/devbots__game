@@ -130,6 +130,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1522975942906792622, guid: f5bf71bb695d90b4fb924d8a95a76d21,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -1522975942906792622, guid: f5bf71bb695d90b4fb924d8a95a76d21,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 268827301798713698, guid: f5bf71bb695d90b4fb924d8a95a76d21,
         type: 3}
       propertyPath: m_RootOrder
@@ -1067,6 +1077,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3, y: 10}
   m_EdgeRadius: 0
+--- !u!114 &336450026 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5119701041641690834, guid: 55a5686628bdc0149b38cd6270fdf86a,
+    type: 3}
+  m_PrefabInstance: {fileID: 651551277}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b240202f61e0a54babb0a67cb3f05a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &353056009
 GameObject:
   m_ObjectHideFlags: 0
@@ -1149,6 +1171,18 @@ Transform:
   m_Father: {fileID: 638792071}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &373975150 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6180655250878159276, guid: 993785d800ec6944fa983f0321403afe,
+    type: 3}
+  m_PrefabInstance: {fileID: 2029469836}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b240202f61e0a54babb0a67cb3f05a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

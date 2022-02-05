@@ -1,12 +1,13 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
-public class BotController : MonoBehaviour
+public class BotController : MonoBehaviour, IHurtResponder
 {
     private BotSensor sensor;
-    private AudioManager audioManager;
+    //private AudioManager audioManager;
     private Rigidbody2D rb;
     public UnityEvent DamageTakenEvent;
     [SerializeField] private float HP = 1;
@@ -19,6 +20,9 @@ public class BotController : MonoBehaviour
     public Slots slots;
     //bool used to determine whether this bot has already been created
     public static bool created = false;
+
+    private List<Bot_Hurtbox> m_hurtboxes = new List<Bot_Hurtbox>(); // If there are multiple hurtboxese per sprite, place this script in the most parent bot object.
+
     //Get this bot's current HP
     public float GetGetHP()
     {
@@ -29,28 +33,18 @@ public class BotController : MonoBehaviour
     public void OnEnable()
     {
         //Delegate used to trigger Onsceneloaded method when a new scene is loaded
-        SceneManager.sceneLoaded += OnSceneLoaded;    
-
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        slots.Initialize();
     }
 
-    public void Awake()
-    {        
-     sensor = GetComponent<BotSensor>();
- 
-   
-
-        audioManager = FindObjectOfType<AudioManager>();
-        rb = GetComponent<Rigidbody2D>();
-        if (DamageTakenEvent == null)
-            DamageTakenEvent = new UnityEvent();
-        //check if this bot should start with random botparts
-        if (startWithRandomBotParts)
+    public void Start()
+    {
+        sensor = GetComponent<BotSensor>();
+        if (!created && sensor.IsPlayer())
         {
-            //assign each slot with random botpart
-            slots.SetSlotBotPart(SlotPosition.Top, availableBotPartsData.PickRandomBotPart(availableBotPartsData.topSlotBotParts));
-            slots.SetSlotBotPart(SlotPosition.Back, availableBotPartsData.PickRandomBotPart(availableBotPartsData.backSlotBotParts));
-            slots.SetSlotBotPart(SlotPosition.Side, availableBotPartsData.PickRandomBotPart(availableBotPartsData.sideSlotBotParts));
-            slots.SetSlotBotPart(SlotPosition.Bottom, availableBotPartsData.PickRandomBotPart(availableBotPartsData.bottomSlotBotParts));
+            //if this bot hasn't been created add it to dontdestroy on load
+            DontDestroyOnLoad(this);
+            created = true;
         }
     }
 
@@ -66,11 +60,16 @@ public class BotController : MonoBehaviour
             //Destroy(this.gameObject);
 
         }
-        
-       else if (sensor.IsPlayer() && created)
+  
+        rb = GetComponent<Rigidbody2D>();
+        if (DamageTakenEvent == null)
+            DamageTakenEvent = new UnityEvent();
+
+        m_hurtboxes = new List<Bot_Hurtbox>(GetComponentsInChildren<Bot_Hurtbox>());
+        Debug.Log(this.gameObject.name + " Hurtresponder's start function");
+        foreach (Bot_Hurtbox _hurtbox in m_hurtboxes)
         {
-            //Destroy gameobject if bot already created
-            Destroy(gameObject);
+            _hurtbox.hurtResponder = this;
         }
 
     }
@@ -142,6 +141,12 @@ public class BotController : MonoBehaviour
         {
             childtransform.localScale = new Vector3(sensor.GetNearestSensedBotDirection(), 1, 1);
         }
+
+        // loop over the slots and perform that code for it
+        foreach (GameObject childTransform in slots.GetSlotsList())
+        {
+            childTransform.transform.localScale = new Vector3(sensor.GetNearestSensedBotDirection(), 1, 1);
+        }
     }
 
     public void SetPosition(Vector3 newPosition)
@@ -153,14 +158,15 @@ public class BotController : MonoBehaviour
     public void ApplyForce(Vector3 force)
     {
         //The desired force is sent by the attacking bot, but may be countered by certain effects
+        Debug.Log("Applying force is active");
         rb.AddRelativeForce(force, ForceMode2D.Impulse);
     }
 
-    public void PlayAudio(string audioName)
+ /*   public void PlayAudio(string audioName)
     {
         //audioManager.Play(audioName);
     }
-
+*/
     public void TakeDamage(float damage)
     {
         HP -= damage;
@@ -170,7 +176,8 @@ public class BotController : MonoBehaviour
           
 
             //start botdestroyed coroutine when bot reaches zero health
-            StartCoroutine(BotDestroyed());
+            /* Commneted out to test collision */
+            //StartCoroutine(BotDestroyed());
 
             //Destroy(sensor.GetNearestSensedBot());
             //Destroy(gameObject);
@@ -202,5 +209,16 @@ public class BotController : MonoBehaviour
         {
             SceneHandler.LoadVictoryScene();
         }
+    }
+
+    public bool CheckHit(HitData hitData)
+    {
+        Debug.Log("Validating hit inside botcontroller");
+        return true;
+    }
+
+    public void Response(HitData hitData)
+    {
+        Debug.Log(this.gameObject + " lost " + hitData.damage + " health!");
     }
 }

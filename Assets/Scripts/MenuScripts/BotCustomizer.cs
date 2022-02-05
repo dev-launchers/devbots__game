@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq; // List.Any()
 
 public class BotCustomizer : MonoBehaviour
 {
@@ -9,12 +10,15 @@ public class BotCustomizer : MonoBehaviour
     public GameObject targetSlot;
     //Used to set the slotposition of this instance
     [SerializeField] SlotPosition slotPosition;
-    public List<GameObject> options = new List<GameObject>();
+    public List<GameObject> options = default(List<GameObject>);
     //used to get the slots that belong to the bot
     Slots slots = default(Slots);
     private int currentOption = 0;
 
-
+    private void Awake()
+    {
+        slots = targetBot.GetComponent<BotController>().slots;
+    }
     public void NextOption() {
         currentOption++;
         if (currentOption >= options.Count) {
@@ -41,6 +45,14 @@ public class BotCustomizer : MonoBehaviour
 
         }
 
+    private void Start()
+    {
+
+        targetBot = GameObject.FindGameObjectWithTag("Bot");
+        slots = targetBot.GetComponent<BotController>().slots;
+    }
+    public void UpdateSlot()
+    {
         //clunky?
 
         //GameObject newTarget = Instantiate(options[currentOption], targetSlot.transform.position, targetSlot.transform.rotation, slots.GetSlot(slotPosition).GetGameObject().transform);
@@ -49,9 +61,9 @@ public class BotCustomizer : MonoBehaviour
         //targetSlot = newTarget;
 
 
-
-        //Set the current option botpart to the correct slot
-        slots.SetSlotBotPart(slotPosition, options[currentOption]);
+        if ((options != null) && (options.Any()))
+                slots.SetSlotBotPart(slotPosition, options[currentOption]); //Set the current option botpart to the correct slot
+        
         
       
     }

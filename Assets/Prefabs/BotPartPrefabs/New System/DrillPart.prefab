@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 516336940138910768}
   - component: {fileID: 516336940138910770}
+  - component: {fileID: 8845006931569786590}
   m_Layer: 0
   m_Name: DrillPart
   m_TagString: Untagged
@@ -47,6 +48,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ability: {fileID: 11400000, guid: dccc4d22c515e4940959fcf1e460c33c, type: 2}
   isRunning: 1
+--- !u!95 &8845006931569786590
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516336940138910769}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: daae205bdac570d499b75104f8ea6840, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &516336940175611470
 GameObject:
   m_ObjectHideFlags: 0

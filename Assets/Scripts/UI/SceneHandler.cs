@@ -42,6 +42,7 @@ public class SceneHandler : MonoBehaviour
     public static void LoadMainMenuScene()
     {
         SceneManager.LoadScene("Main Menu Scene");
+        GameObject.FindObjectOfType<SoundManager>().PlayMusic("Menu Music");
     }
 
     public static void LoadCustomizeBotScene()
