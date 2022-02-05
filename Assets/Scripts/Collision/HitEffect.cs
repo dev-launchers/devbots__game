@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu(fileName = "New Hit Effect", menuName = "Hit Effect Objects")]
+[CreateAssetMenu(fileName = "New Hit Effect", menuName = "Hit Effect Objects/Basic")]
 public class HitEffect : ScriptableObject
 {
     

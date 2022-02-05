@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="eed4f246-e10e-4789-b1d2-2df40b755a2f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.devbots__game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.devbots__game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hit Effects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hit Effects/basic.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hit Effects/basic.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sachin_Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sachin_Test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotAbilityHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotAbilityHolder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Collision/HitEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Collision/HitEffect.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Collision/Hitbox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Collision/Hitbox.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Collision/Hurtbox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Collision/Hurtbox.cs" afterDir="false" />
     </list>
@@ -19,17 +19,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/WheelAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/TeleportAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/DrillAbility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/GunAbility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/TeslaAbility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Additions/GunPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Bot Actions/MoveAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotAbilityHolder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/GunAbility.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/TeslaAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Bot Actions/AttackAbility.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Additions/GunPosition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/DashAbility.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -54,9 +54,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/TeslaAbility.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/TeleportAbility.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotAbilityHolder.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Collision/Hurtbox.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Collision/HitEffects/HitEffect_Damage.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Collision/HitEffects/HitEffectDamage.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Collision/HitEffect.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Collision/Hitbox.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Collision/Hurtbox.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zezugiXn2pzia2up4MUAlPjxju" />
@@ -120,6 +123,7 @@
       <workItem from="1636704286918" duration="6110000" />
       <workItem from="1639839316338" duration="1873000" />
       <workItem from="1643122777703" duration="857000" />
+      <workItem from="1644078469024" duration="2737000" />
     </task>
     <servers />
   </component>
@@ -129,6 +133,15 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">

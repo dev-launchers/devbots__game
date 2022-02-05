@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
-
+[RequireComponent( typeof(Rigidbody2D), typeof(BoxCollider2D) )]
 public class Hurtbox : MonoBehaviour
 {
     /* This will  */
@@ -23,7 +23,7 @@ public class Hurtbox : MonoBehaviour
             HitResponse(/*enemyHitEffects*/);
             foreach (HitEffect e in effects)
             {
-                e.PerformEffect(gameObject);
+                e.PerformEffect(transform.parent.gameObject);//this assume the hurtbox is a child of the bot which has a bot controller
             }
             return true;
         }

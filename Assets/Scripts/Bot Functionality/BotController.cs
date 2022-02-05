@@ -10,7 +10,7 @@ public class BotController : MonoBehaviour, IHurtResponder
     //private AudioManager audioManager;
     private Rigidbody2D rb;
     public UnityEvent DamageTakenEvent;
-    [SerializeField] private float HP = 1;
+    [SerializeField] private float HP = 10000;
     [SerializeField] private float deathAnimationTime = 0;
     //class used to locate and change slots and the botparts which are on each slot
     public Slots slots;
