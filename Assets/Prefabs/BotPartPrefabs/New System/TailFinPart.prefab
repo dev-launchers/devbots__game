@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6186239303057437039}
   - component: {fileID: 2648814509763072190}
+  - component: {fileID: -5560204745287468863}
   m_Layer: 0
   m_Name: TailFinPart
   m_TagString: Untagged
@@ -45,7 +46,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ability: {fileID: 11400000, guid: 84a7129fc2f55e54a957e6e604ec6e0b, type: 2}
-  isRunning: 0
+  isRunning: 1
+--- !u!95 &-5560204745287468863
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2648814509763072191}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: daae205bdac570d499b75104f8ea6840, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4502626455940063099
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SwordPart : BotPart
+public class SwordPart : BotPart, IHitResponder
 {
 
     private Vector2 attackPos = default(Vector2);
@@ -11,11 +11,15 @@ public class SwordPart : BotPart
     [SerializeField] private float knockback = default(float);
     [SerializeField] private Vector2 thrustForce = default(Vector2);
     [SerializeField] private bool isRunning;
-    private int enemyLayer;
+    [SerializeField] private LayerMask enemyLayer;
+    [SerializeField] private Sword_Hitbox hitbox;
 
     private Animator swordAnimator;//Animator used for sword rotation
     private Rigidbody2D rb;
     private BotSensor sensor;
+
+    // HitResponder data
+    public float Damage { get => damage; }
 
     public override void SetState(State state) {
         isRunning = state.isActive;
@@ -23,10 +27,11 @@ public class SwordPart : BotPart
 
     private void Start()
     {
+        
         swordAnimator = GetComponent<Animator>();
         rb = GetComponentInParent<Rigidbody2D>();
         sensor = GetComponentInParent<BotSensor>();
-        enemyLayer = sensor.GetEnemyLayer();
+        //enemyLayer = sensor.GetEnemyLayer();
         timer = GetCoolDown();
     }
     public void AttackStep()
@@ -44,38 +49,26 @@ public class SwordPart : BotPart
                 Vector2 appliedForce = new Vector2(thrustForce.x * sensor.GetNearestSensedBotDirection(), thrustForce.y);
                 rb.AddRelativeForce(appliedForce, ForceMode2D.Impulse);
 
-                attackPos = transform.position + new Vector3(sensor.GetNearestSensedBotDirection(), 0, 0);
-                //Should be cleaned up, but currently creates Vector2 for current position + 1 in direction of enemy
-                Collider2D collision = Physics2D.OverlapCircle(attackPos, attackDistance); 
-                //Needs to attack only in front using swordPos
-
-                if (collision.gameObject.layer == enemyLayer)
-                {
-                    print("collision");
-                    BotController collisionController = collision.transform.GetComponent<BotController>();
-                    collisionController.TakeDamage(damage);
-                    collisionController.ApplyForce(new Vector2(knockback * sensor.GetNearestSensedBotDirection(),0));
-                }
+                // Calling check hit to validate collision
+                hitbox.CheckHit();                               
             }
         }
-    }
-    void OnDrawGizmosSelected()
-    {
-        // Display the attack radius when selected
-        Gizmos.color = Color.green;
-        attackPos = transform.position;
-        if (Application.isPlaying)
-        {
-        attackPos = transform.position + new Vector3(sensor.GetNearestSensedBotDirection(), 0, 0);
-        }
-
-
-        Gizmos.DrawWireSphere(attackPos, attackDistance);
-
     }
 
     public override void BotPartUpdate()
     {
         AttackStep();
+    }
+
+    /* HitResponder Methods */
+    public bool CheckHit(HitData hitData)
+    {
+        // No addition checks required for sword 
+        return true;
+    }
+
+    public void Response(HitData hitData)
+    {
+        // No response to successful hit 
     }
 }

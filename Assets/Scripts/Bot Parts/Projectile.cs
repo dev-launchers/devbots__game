@@ -16,8 +16,8 @@ public class Projectile : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //rb = GetComponent<Rigidbody2D>();
-        //rb.AddForce(new Vector2(enemyDirection * speed,0), ForceMode2D.Impulse);
+        rb = GetComponent<Rigidbody2D>();
+        rb.AddForce(new Vector2(enemyDirection * speed,0), ForceMode2D.Impulse);
 
     }
 
@@ -48,22 +48,22 @@ public class Projectile : MonoBehaviour
         rb.AddForce(new Vector2(enemyDirection * speed, 0), ForceMode2D.Impulse);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        //Check what layer collided game object is
-        if (collision.gameObject.layer == enemyLayer)
-        {
-            //event invoke for unity event. can add to in editor
-            //projectileColisionEvent.Invoke();   
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    print("collided wtih " + collision.gameObject.name);
+    //    //Check what layer collided game object is
+    //    if (collision.gameObject.layer == enemyLayer)
+    //    {
+    //        //event invoke for unity event. can add to in editor
+    //        //projectileColisionEvent.Invoke();   
 
-            //Deal damage to collided enemy
-            collision.gameObject.GetComponent<BotController>().TakeDamage(damage);
-        }
+    //        //Deal damage to collided enemy
+    //        // collision.gameObject.GetComponent<BotController>().TakeDamage(damage);
+    //    }
 
-        //Destroy projectile
-        Destroy(this.gameObject);
-
-
+    //    //Destroy projectile
+    //    Destroy(this.gameObject);
+    //}
     }
 
     //For an exploding bullet: 

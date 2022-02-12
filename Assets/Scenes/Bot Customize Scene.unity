@@ -3874,7 +3874,8 @@ MonoBehaviour:
   targetBot: {fileID: 721326015}
   targetSlot: {fileID: 721326017}
   slotPosition: 1
-  options: []
+  options:
+  - {fileID: 6960256867973584277, guid: 39288b684cf66d949bcecc129dcbf7cb, type: 3}
 --- !u!1 &1806078129
 GameObject:
   m_ObjectHideFlags: 0
