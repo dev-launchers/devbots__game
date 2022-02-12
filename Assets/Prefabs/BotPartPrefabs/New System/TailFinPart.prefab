@@ -46,7 +46,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ability: {fileID: 11400000, guid: 84a7129fc2f55e54a957e6e604ec6e0b, type: 2}
-  isRunning: 1
+  isRunning: 0
+  hasAnimation: 0
 --- !u!95 &-5560204745287468863
 Animator:
   serializedVersion: 3
