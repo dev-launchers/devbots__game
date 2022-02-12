@@ -148,3 +148,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ability: {fileID: 11400000, guid: d11c7e93d05631c4c99cd0fe8654f37b, type: 2}
   isRunning: 0
+  hasAnimation: 0

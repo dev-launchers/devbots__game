@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6691964500301260359}
   - component: {fileID: 3298103172171777960}
-  - component: {fileID: -1645760629436285379}
   m_Layer: 0
   m_Name: TeslaPart
   m_TagString: Untagged
@@ -46,7 +45,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ability: {fileID: 11400000, guid: a31fa067c7c2a2d46b39cc26a0d98fce, type: 2}
-  isRunning: 1
+  isRunning: 0
+  hasAnimation: 0
 --- !u!1 &3998008414799267923
 GameObject:
   m_ObjectHideFlags: 0

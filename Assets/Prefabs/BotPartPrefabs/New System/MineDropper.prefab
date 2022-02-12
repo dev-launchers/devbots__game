@@ -44,6 +44,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ability: {fileID: 11400000, guid: 6f164dc7e25e946468d5836d141ddc8d, type: 2}
   isRunning: 0
+  hasAnimation: 0
 --- !u!114 &7373978909054739864
 MonoBehaviour:
   m_ObjectHideFlags: 0

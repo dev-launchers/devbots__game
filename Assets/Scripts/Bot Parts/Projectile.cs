@@ -64,7 +64,7 @@ public class Projectile : MonoBehaviour
     //    //Destroy projectile
     //    Destroy(this.gameObject);
     //}
-    }
+    
 
     //For an exploding bullet: 
     //Collider2D collision = Physics2D.OverlapCircle(new Vector2 (0,0), 1, "Bot"); 
