@@ -35,6 +35,14 @@ public class BotController : MonoBehaviour, IHurtResponder
         //Delegate used to trigger Onsceneloaded method when a new scene is loaded
         SceneManager.sceneLoaded += OnSceneLoaded;
         slots.Initialize();
+        if (startWithRandomBotParts)
+        {
+        slots.SetSlotBotPart(SlotPosition.Back, availableBotPartsData.PickRandomBotPart(availableBotPartsData.backSlotBotParts));
+        slots.SetSlotBotPart(SlotPosition.Top, availableBotPartsData.PickRandomBotPart(availableBotPartsData.topSlotBotParts));
+        slots.SetSlotBotPart(SlotPosition.Bottom, availableBotPartsData.PickRandomBotPart(availableBotPartsData.bottomSlotBotParts));
+        slots.SetSlotBotPart(SlotPosition.Side, availableBotPartsData.PickRandomBotPart(availableBotPartsData.sideSlotBotParts));
+        }
+
     }
 
     public void Start()

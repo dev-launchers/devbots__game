@@ -54,20 +54,14 @@ public class BotAbilityHolder : MonoBehaviour
                     SwitchToActive();
                 }
                 break;
-            
             case AbilityState.Active:
-                 if(!hasAnimation)
+                if (!hasAnimation)
                 {
                     activeTime -= Time.deltaTime;
-                    if(activeTime <= 0.0f)
+                    if (activeTime <= 0.0f)
                     {
                         SwitchToCooldown();
                     }
-                if (activeTime > 0) activeTime -= Time.deltaTime;
-                else
-                {
-                    state = AbilityState.Cooldown;
-                    coolDownTime = ability.coolDownTime;
                 }
                 break;
             
