@@ -11,8 +11,10 @@ public class WheelAbility : MoveAbility
     public override void Activate(GameObject parent)
     {
         rb = parent.gameObject.GetComponentInParent<Rigidbody2D>();
-                sensor = parent.GetComponentInParent<BotSensor>();
-                controller = parent.GetComponentInParent<BotController>();
+        sensor = parent.GetComponentInParent<BotSensor>();
+        controller = parent.GetComponentInParent<BotController>();
+
+
         int enemyDirection = sensor.GetNearestSensedBotDirection();
         int currentDirection = enemyDirection;
         

@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6691964500301260359}
   - component: {fileID: 3298103172171777960}
-  - component: {fileID: -1645760629436285379}
   m_Layer: 0
   m_Name: TeslaPart
   m_TagString: Untagged
@@ -46,26 +45,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ability: {fileID: 11400000, guid: a31fa067c7c2a2d46b39cc26a0d98fce, type: 2}
-  isRunning: 1
---- !u!95 &-1645760629436285379
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3298103172171777943}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: daae205bdac570d499b75104f8ea6840, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  isRunning: 0
+  hasAnimation: 0
 --- !u!1 &3998008414799267923
 GameObject:
   m_ObjectHideFlags: 0

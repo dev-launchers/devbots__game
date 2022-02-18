@@ -46,7 +46,6 @@ public class BotAbilityHolder : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        activeTime += Time.deltaTime;
         switch(state)
         {
             case AbilityState.Ready:
@@ -57,9 +56,10 @@ public class BotAbilityHolder : MonoBehaviour
                 break;
             
             case AbilityState.Active:
-                if(!hasAnimation)
-                    if (activeTime > 0) activeTime -= Time.deltaTime;
-                    else
+                 if(!hasAnimation)
+                {
+                    activeTime -= Time.deltaTime;
+                    if(activeTime <= 0.0f)
                     {
                         SwitchToCooldown();
                     }
@@ -72,8 +72,8 @@ public class BotAbilityHolder : MonoBehaviour
                 break;
             
             case AbilityState.Cooldown: 
-                if (coolDownTime > 0) coolDownTime -= Time.deltaTime;
-                else
+                coolDownTime -= Time.deltaTime;
+                if(coolDownTime <= 0.0f)
                 {
                     SwitchToReady();
                 }
@@ -109,5 +109,10 @@ public class BotAbilityHolder : MonoBehaviour
 
         
 
+    }
+
+    public void SetState(State _state)
+    {
+        isRunning = true;
     }
 }
