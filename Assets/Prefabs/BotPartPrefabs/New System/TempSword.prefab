@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ability: {fileID: 11400000, guid: d59b879879dd99644892819442894864, type: 2}
-  isRunning: 1
+  isRunning: 0
   hasAnimation: 0
 --- !u!212 &2166753229591355257
 SpriteRenderer:
