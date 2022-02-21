@@ -98,7 +98,7 @@ public class BotAbilityHolder : MonoBehaviour
         ability.Activate(gameObject);
         state = AbilityState.Active;
         activeTime = ability.activeTime;
-                    state = AbilityState.Ready;
+
                 
 
         
