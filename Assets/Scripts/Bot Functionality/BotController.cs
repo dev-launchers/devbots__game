@@ -124,6 +124,7 @@ public class BotController : MonoBehaviour, IHurtResponder
                 //unfreeze this bots gameobject
                 rb.constraints = RigidbodyConstraints2D.None;
                 rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+                rb.AddForce(new Vector2(0.1f, 0.1f));
 
             }
         }
