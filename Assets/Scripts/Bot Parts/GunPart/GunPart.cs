@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GunPart : BotPart, IHitResponder
 {
@@ -13,7 +14,7 @@ public class GunPart : BotPart, IHitResponder
     private BotSensor sensor;
     private BotController controller;
 
-    [SerializeField] private bool isRunning;
+ 
 
     public float Damage { get => damage; }
 

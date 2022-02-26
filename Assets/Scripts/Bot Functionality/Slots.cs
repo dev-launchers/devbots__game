@@ -32,7 +32,7 @@ public class Slots
 
  
     //Get the slot gameobject by using the slotpositioon enum
-    private GameObject GetSlot(SlotPosition slotPosition)
+    public GameObject GetSlot(SlotPosition slotPosition)
     {
         GameObject slot = default(GameObject);
         //match slotposition to correct slot
@@ -97,6 +97,23 @@ public class Slots
     public List<GameObject> GetSlotsList()
     {
         return slots;   
+    }
+
+
+    /// <summary>
+    /// Get the  bot ability located at this slot
+    /// </summary>
+    /// <param name="slotPosition"></param>
+    /// <returns>This method returns the botability holder at this slot</returns>
+    public BotAbilityHolder GetSlotBotAbilityHolder(SlotPosition slotPosition)
+    {
+        GameObject slot = GetSlot(slotPosition);
+        return slot.GetComponentInChildren<BotAbilityHolder>();
+    }
+    //Get the  botpart located at this slot
+    public BotPart GetSlotBotPart(GameObject slot)
+    {
+        return slot.GetComponentInChildren<BotPart>();
     }
 
 }

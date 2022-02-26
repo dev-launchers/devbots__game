@@ -2,12 +2,43 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
 /// <summary>
 /// This class contains static methods that handle scene loading.
 /// </summary>
 public class SceneHandler : MonoBehaviour
 {
+
+    public static BotController GetPlayerBotControllerInScene()
+    {
+        GameObject[] bots = GameObject.FindGameObjectsWithTag("Bot");
+        foreach (GameObject bot in bots)
+        {
+            if (bot.GetComponent<BotSensor>().IsPlayer())
+            {
+                return bot.GetComponent<BotController>();
+            }
+
+        }
+        return null;
+    }
+    public static BotController GetEnemyBotControllerInScene()
+    {
+        GameObject[] bots = GameObject.FindGameObjectsWithTag("Bot");
+        foreach (GameObject bot in bots)
+        {
+            if (!bot.GetComponent<BotSensor>().IsPlayer())
+            {
+                return bot.GetComponent<BotController>();
+            }
+
+        }
+        return null;
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
     public static void LoadMainMenuScene()
     {
         SceneManager.LoadScene("Main Menu Scene");

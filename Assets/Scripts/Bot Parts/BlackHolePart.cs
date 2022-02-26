@@ -14,7 +14,6 @@ public class BlackHolePart : BotPart
     
     [SerializeField] private float pullStrength;
     [SerializeField] private LayerMask enemyLayers;
-    [SerializeField] private bool isRunning;
     
     public override void SetState(State state)
     {

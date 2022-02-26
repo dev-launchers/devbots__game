@@ -115,8 +115,8 @@ public partial class HealthBar : MonoBehaviour
         yield return new WaitForSeconds(sliderTextDelay);
         //set value of under bar
         underBarSmoothSlider.SetSliderValue(currentHP);
-        //set the value of the health text
-        healthText.text = $"{currentHP * 100}/100";
+        //set the value of the health text rounded to nearest int
+        healthText.text = $"{Mathf.RoundToInt(currentHP * 100)}/100";
     }
 
 }

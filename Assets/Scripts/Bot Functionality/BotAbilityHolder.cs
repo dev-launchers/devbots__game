@@ -25,6 +25,15 @@ public class BotAbilityHolder : MonoBehaviour
     private float activeTime = 0;
 
     [SerializeField] private bool isRunning;
+
+    /// <summary>
+    /// This method returns the cooldown data for this botpart ability
+    /// </summary>
+    /// <returns>item1 = current cooldownTimer, item2 = ability cooldown time</returns>
+    public Tuple<float, float> GetCooldownData()
+    {
+        return new Tuple<float, float>(coolDownTime, ability.coolDownTime);
+    }
     [SerializeField] private bool hasAnimation;
     private Animator animator;
 
@@ -45,12 +54,11 @@ public class BotAbilityHolder : MonoBehaviour
                     SwitchToActive();
                 }
                 break;
-            
             case AbilityState.Active:
-                 if(!hasAnimation)
+                if (!hasAnimation)
                 {
                     activeTime -= Time.deltaTime;
-                    if(activeTime <= 0.0f)
+                    if (activeTime <= 0.0f)
                     {
                         SwitchToCooldown();
                     }
@@ -72,15 +80,22 @@ public class BotAbilityHolder : MonoBehaviour
     {
         coolDownTime = ability.coolDownTime;
         state = AbilityState.Cooldown;
-        
+        if(animator != null)
+        {
         animator.SetTrigger(COOLDOWN);
+        }
+
         
         Debug.Log("Cooldown");
     }
 
     public void SwitchToReady()
     {
+        if(animator != null)
+        {
         animator.SetTrigger(ACTIVE);
+        }
+
         Debug.Log("Ready");
         state = AbilityState.Ready;
     }
@@ -90,6 +105,11 @@ public class BotAbilityHolder : MonoBehaviour
         ability.Activate(gameObject);
         state = AbilityState.Active;
         activeTime = ability.activeTime;
+        Debug.Log("Active");
+
+
+
+
     }
 
     public void SetState(State _state)

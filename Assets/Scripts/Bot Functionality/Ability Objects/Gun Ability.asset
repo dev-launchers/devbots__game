@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   abilityName: Shoot
   coolDownTime: 1
-  activeTime: 0.1
+  activeTime: 1
   projectile: {fileID: 320862649137496441, guid: 1079d5f5cdb322b4680ebb1ed73d214d,
     type: 3}
   speed: 3

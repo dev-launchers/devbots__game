@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class TailFinPart : BotPart
 {
     [Tooltip("Amount of backforce to apply")]
@@ -13,7 +12,8 @@ public class TailFinPart : BotPart
     private BotSensor sensor;
     private BotController controller;
     
-    [SerializeField] private bool isRunning;
+
+
 
     public void Start()
     {

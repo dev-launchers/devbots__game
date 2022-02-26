@@ -16,7 +16,6 @@ public class MineDropperPart : BotPart
 
 
 
-    [SerializeField] private bool isRunning;
     // Start is called before the first frame update
     void Start()
     {

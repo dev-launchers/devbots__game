@@ -9,19 +9,25 @@ public class CooldownBar : MonoBehaviour
     [SerializeField] Slider slider;
     //The botcontroller this cooldown bar belongs to
     private BotController botController;
-    //The botpart that this cooldown bar is going to be using
-    BotPart botPart;
-
-
-    // Start is called before the first frame update
-    void Start()
+    //The ability holder that this cooldown bar is going to be using
+    BotAbilityHolder botAbilityHolder;
+    private void Start()
     {
-        //get the botcontroller located in HealthAndCDHoolder script
-        botController = transform.parent.GetComponentInParent<HealthAndCDHolder>().GetBotController();
-        //get the botpart
-        botPart = botController.slots.GetSlotBotPart(slotPosition);
-        //check if bot part does not exists in slot
-        if (!botPart)
+        Debug.Log(transform.parent.GetComponentInParent<HealthAndCDHolder>().name);
+        //Define which bot is which
+        if (transform.parent.GetComponentInParent<HealthAndCDHolder>().isPlayerHolder)
+        {
+            botController = SceneHandler.GetPlayerBotControllerInScene();
+        }
+        else
+        {
+            botController = SceneHandler.GetEnemyBotControllerInScene();
+        }
+       
+        //get the bot ability holder
+        botAbilityHolder = botController.slots.GetSlotBotAbilityHolder(slotPosition);
+        //check if bot ability holder does not exists in slot
+        if (!botAbilityHolder)
         {
             //get all children transforms for this cooldown bar
             var childrenTransforms = GetComponentsInChildren<Transform>();
@@ -33,19 +39,20 @@ public class CooldownBar : MonoBehaviour
             }
         }
     }
-
     // Update is called once per frame
     void Update()
     {
-        if (botPart)
+        //check if bot ability holder exists in slot
+        if (botAbilityHolder)
         {
             ///Set slider maxvalue to botpart cooldown time
-            if (slider.maxValue != botPart.GetCoolDown())
+            if (slider.maxValue != botAbilityHolder.GetCooldownData().Item2)
             {
-                slider.maxValue = botPart.GetCoolDown();
+                slider.maxValue = botAbilityHolder.GetCooldownData().Item2;
             }
+           
             //Update the value of the slider
-            slider.value = botPart.GetCoolDown() - botPart.GetCoolDownTimer();
+            slider.value = botAbilityHolder.GetCooldownData().Item2 - botAbilityHolder.GetCooldownData().Item1;
         }
 
     }
