@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Tesla Ability
   m_EditorClassIdentifier: 
   abilityName: Tesla
-  coolDownTime: 1
+  coolDownTime: 2
   activeTime: 1
   damage: 1
   teslaEffect: {fileID: 6701458812791396994, guid: 0a15cc7107652694892244d89b9f7c63,
     type: 3}
-  attackRadius: 3
+  attackRadius: 2

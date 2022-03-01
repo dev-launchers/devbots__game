@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eed4f246-e10e-4789-b1d2-2df40b755a2f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.devbots__game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.devbots__game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +24,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/TeslaAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Bot Actions/AttackAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Additions/GunPosition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/DashAbility.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -110,6 +110,9 @@
       <workItem from="1636215149630" duration="1118000" />
       <workItem from="1636704286918" duration="6110000" />
       <workItem from="1639839316338" duration="1873000" />
+      <workItem from="1646141931220" duration="224000" />
+      <workItem from="1646142256245" duration="22000" />
+      <workItem from="1646142372128" duration="36000" />
     </task>
     <servers />
   </component>

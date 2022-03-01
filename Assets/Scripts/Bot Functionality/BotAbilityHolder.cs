@@ -30,7 +30,7 @@ public class BotAbilityHolder : MonoBehaviour
 
     private void Start()
     {
-        animator = GetComponent<Animator>();
+	if(hasAnimation)animator = GetComponent<Animator>();
         SwitchToCooldown();//start in cooldown state
     }
 
@@ -73,6 +73,7 @@ public class BotAbilityHolder : MonoBehaviour
         coolDownTime = ability.coolDownTime;
         state = AbilityState.Cooldown;
         
+	if(hasAnimation)
         animator.SetTrigger(COOLDOWN);
         
         Debug.Log("Cooldown");
@@ -80,6 +81,7 @@ public class BotAbilityHolder : MonoBehaviour
 
     public void SwitchToReady()
     {
+	if(hasAnimation)
         animator.SetTrigger(ACTIVE);
         Debug.Log("Ready");
         state = AbilityState.Ready;
