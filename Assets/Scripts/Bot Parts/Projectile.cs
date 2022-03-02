@@ -38,6 +38,14 @@ public class Projectile : MonoBehaviour
         speed = spd; //Set the speed of the projectile
         gameObject.transform.localScale = size; //Set the projectile size
         enemyLayer = layer; //Set the target of the projectile, so it only hits the desired bot, will likely need to be array of layers for self-damaging items 
+
+        CreateForce();
+    }
+
+    private void CreateForce()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        rb.AddForce(new Vector2(enemyDirection * speed, 0), ForceMode2D.Impulse);
     }
 
     //private void OnTriggerEnter2D(Collider2D collision)
@@ -56,6 +64,7 @@ public class Projectile : MonoBehaviour
     //    //Destroy projectile
     //    Destroy(this.gameObject);
     //}
+    
 
     //For an exploding bullet: 
     //Collider2D collision = Physics2D.OverlapCircle(new Vector2 (0,0), 1, "Bot"); 

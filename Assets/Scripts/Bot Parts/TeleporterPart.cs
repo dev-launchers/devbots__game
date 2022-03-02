@@ -9,7 +9,7 @@ public class TeleporterPart : BotPart
     private Rigidbody2D rb;
     private BotSensor sensor;
     private BotController controller;
-    [SerializeField] private bool isRunning;
+
 
     public void Start() {
         rb = gameObject.GetComponentInParent<Rigidbody2D>();

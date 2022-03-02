@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class WheelPart : BotPart
@@ -12,7 +10,6 @@ public class WheelPart : BotPart
     private Rigidbody2D rb;
     private BotSensor sensor;
 
-    [SerializeField] private bool isRunning;
 
     public void Start() {
         rb = gameObject.GetComponentInParent<Rigidbody2D>();

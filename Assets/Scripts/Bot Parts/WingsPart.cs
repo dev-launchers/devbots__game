@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class WingsPart : BotPart
@@ -13,7 +11,6 @@ public class WingsPart : BotPart
     private BotController controller;
     
 
-    [SerializeField] private bool isRunning;
 
     public void Start()
     {

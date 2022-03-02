@@ -12,6 +12,10 @@ public class BotController : MonoBehaviour, IHurtResponder
     public UnityEvent DamageTakenEvent;
     [SerializeField] private float HP = 10000;
     [SerializeField] private float deathAnimationTime = 0;
+    //Set true if this bot should spawn random game objects for each slot
+    [SerializeField] private bool startWithRandomBotParts = false;
+    //This is used to get all botpart prefabs.
+    [SerializeField] private AvailableBotPartsData availableBotPartsData = default(AvailableBotPartsData);
     //class used to locate and change slots and the botparts which are on each slot
     public Slots slots;
     //bool used to determine whether this bot has already been created
@@ -31,6 +35,14 @@ public class BotController : MonoBehaviour, IHurtResponder
         //Delegate used to trigger Onsceneloaded method when a new scene is loaded
         SceneManager.sceneLoaded += OnSceneLoaded;
         slots.Initialize();
+        if (startWithRandomBotParts)
+        {
+        slots.SetSlotBotPart(SlotPosition.Back, availableBotPartsData.PickRandomBotPart(availableBotPartsData.backSlotBotParts));
+        slots.SetSlotBotPart(SlotPosition.Top, availableBotPartsData.PickRandomBotPart(availableBotPartsData.topSlotBotParts));
+        slots.SetSlotBotPart(SlotPosition.Bottom, availableBotPartsData.PickRandomBotPart(availableBotPartsData.bottomSlotBotParts));
+        slots.SetSlotBotPart(SlotPosition.Side, availableBotPartsData.PickRandomBotPart(availableBotPartsData.sideSlotBotParts));
+        }
+
     }
 
     public void Start()
@@ -42,12 +54,7 @@ public class BotController : MonoBehaviour, IHurtResponder
             DontDestroyOnLoad(this);
             created = true;
         }
-        else if(sensor.IsPlayer())
-        {
-            //if this bot has been created already destroy this bot
-            Destroy(this.gameObject);
-        }
-  
+
         rb = GetComponent<Rigidbody2D>();
         if (DamageTakenEvent == null)
             DamageTakenEvent = new UnityEvent();
@@ -68,6 +75,7 @@ public class BotController : MonoBehaviour, IHurtResponder
         {
             FaceEnemy();
         }
+
     }
     /// <summary>
     /// Method called when a scene is loaded
@@ -76,18 +84,49 @@ public class BotController : MonoBehaviour, IHurtResponder
     /// <param name="loadSceneMode"></param>
     private void OnSceneLoaded(Scene scene,LoadSceneMode loadSceneMode)
     {
-        //check new loaded scene's name
-        if (scene.name == "Main Menu Scene" || scene.name == "Bot Customize Scene"|| scene.name == "Combat")
+        rb = GetComponent<Rigidbody2D>();
+        sensor = GetComponent<BotSensor>();
+        if (sensor.IsPlayer())
         {
-            //activate this bot
-            gameObject.SetActive(true);
-            //set bot's position to the botStartPos gameobjects position
-            transform.position = GameObject.Find("botStartPos").transform.position;
-        }
-        else if (scene.name == "Marketplace Scene"|| scene.name == "Settings Scene")
-        {
-            //deactivate this bot
-            gameObject.SetActive(false);
+            //check new loaded scene's name
+            switch (scene.name)
+            {
+                case "Main Menu Scene":
+                case "Bot Customize Scene":
+                case "Combat":
+
+
+                    //activate this bot
+                    gameObject.SetActive(true);
+
+                    break;
+                case "Marketplace Scene":
+                case "Settings Scene":
+                case "Victory Scene":
+                case "Lose Scene":
+                    gameObject.SetActive(false);
+                    break;
+
+            }
+            if (scene.name == "Main Menu Scene" || scene.name == "Bot Customize Scene")
+            {
+
+                //set bot's position to the botStartPos gameobjects position
+                transform.position = GameObject.Find("botStartPos").transform.position;
+                //freeze this bots gameobject
+                rb.constraints = RigidbodyConstraints2D.FreezeAll;
+
+
+            }
+            else
+            {
+
+                //unfreeze this bots gameobject
+                rb.constraints = RigidbodyConstraints2D.None;
+                rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+                rb.AddForce(new Vector2(0.1f, 0.1f));
+
+            }
         }
     }
 
@@ -129,6 +168,8 @@ public class BotController : MonoBehaviour, IHurtResponder
         DamageTakenEvent.Invoke();
         if (HP <= 0.0f)
         {
+          
+
             //start botdestroyed coroutine when bot reaches zero health
             /* Commneted out to test collision */
             //StartCoroutine(BotDestroyed());
@@ -150,7 +191,7 @@ public class BotController : MonoBehaviour, IHurtResponder
     public IEnumerator BotDestroyed()
     {
         //run death animation here and change deathAnimationTime in the inspector
-
+  Debug.Log("dead");
         //delay to play animation before changing scene
         yield return new WaitForSeconds(deathAnimationTime);
 

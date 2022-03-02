@@ -17,7 +17,9 @@ public class BotCustomizer : MonoBehaviour
 
     private void Awake()
     {
+        targetBot = GameObject.FindGameObjectWithTag("Bot");
         slots = targetBot.GetComponent<BotController>().slots;
+        targetSlot = slots.GetSlot(slotPosition);
     }
     public void NextOption() {
         currentOption++;
@@ -34,27 +36,19 @@ public class BotCustomizer : MonoBehaviour
         }
         UpdateSlot();
     }
-    private void Start()
-    {
 
-        targetBot = GameObject.FindGameObjectWithTag("Bot");
-        slots = targetBot.GetComponent<BotController>().slots;
-    }
     public void UpdateSlot()
-    {
-        //clunky?
+    {      
+        if (!targetBot)
+        {
+      targetBot = GameObject.FindGameObjectWithTag("Bot");
 
-        //GameObject newTarget = Instantiate(options[currentOption], targetSlot.transform.position, targetSlot.transform.rotation, slots.GetSlot(slotPosition).GetGameObject().transform);
-        //Destroy(targetSlot);
+            slots = targetBot.GetComponent<BotController>().slots;
 
-        //targetSlot = newTarget;
+        }
 
-
-        if ((options != null) && (options.Any()))
-                slots.SetSlotBotPart(slotPosition, options[currentOption]); //Set the current option botpart to the correct slot
-        
-        
-      
+        //Set the current option botpart to the correct slot
+        slots.SetSlotBotPart(slotPosition, options[currentOption]);
     }
 
 

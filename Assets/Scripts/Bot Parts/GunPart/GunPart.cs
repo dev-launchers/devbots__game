@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GunPart : BotPart, IHitResponder
 {
@@ -13,7 +14,7 @@ public class GunPart : BotPart, IHitResponder
     private BotSensor sensor;
     private BotController controller;
 
-    [SerializeField] private bool isRunning;
+ 
 
     public float Damage { get => damage; }
 
@@ -40,38 +41,38 @@ public class GunPart : BotPart, IHitResponder
 
         if (isRunning) {
 
-            if (!IsPartCoolingDown()){
-                ResetCooldownTimer();
+            //if (!IsPartCoolingDown()){
+            //    ResetCooldownTimer();
 
-                int enemyDirection = sensor.GetNearestSensedBotDirection();
+            //    int enemyDirection = sensor.GetNearestSensedBotDirection();
 
-                //Faces attack at enemy, handled as local position to bot part
-                AttackActions.ProjectileAttack( 
-                    enemyDirection, 
-                    projectileStartPos.transform, 
-                    damage, 
-                    projectileSpeed, 
-                    enemyLayer, 
-                    null, 
-                    projectile, 
-                    // new Vector2(1, 1)
-                    projectileSize
-                    );
+            //    //Faces attack at enemy, handled as local position to bot part
+            //    AttackActions.ProjectileAttack( 
+            //        enemyDirection, 
+            //        projectileStartPos.transform, 
+            //        damage, 
+            //        projectileSpeed, 
+            //        enemyLayer, 
+            //        null, 
+            //        projectile, 
+            //        // new Vector2(1, 1)
+            //        projectileSize
+            //        );
 
-                // Removed redundant instantaite
-                // GameObject projectileInstance = Instantiate(projectile, projectileStartPos.transform.position, Quaternion.identity);
-                //// Create a projectile at the start position
+            //    // Removed redundant instantaite
+            //    // GameObject projectileInstance = Instantiate(projectile, projectileStartPos.transform.position, Quaternion.identity);
+            //    //// Create a projectile at the start position
 
-                //Projectile projectileScript = projectileInstance.GetComponent<Projectile>();
-                ////Fetch script/data for projectile
+            //    Projectile projectileScript = projectileInstance.GetComponent<Projectile>();
+            //    //Fetch script/data for projectile
 
-                //projectileScript.SetValues(enemyDirection, damage, projectileSpeed, projectileSize, enemyLayer);
-                ////Tells projectile values
+            //    projectileScript.SetValues(enemyDirection, damage, projectileSpeed, projectileSize, enemyLayer);
+                //Tells projectile values
 
                 //TODO: Set projectile knockback
 
                 //controller.PlayAudio("Hit");
-            }
+            //}
         }
     }
     private void OnCollisionEnter(Collision collision)
