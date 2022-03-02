@@ -172,10 +172,10 @@ public class BotController : MonoBehaviour, IHurtResponder
 
             //start botdestroyed coroutine when bot reaches zero health
             /* Commneted out to test collision */
-            //StartCoroutine(BotDestroyed());
+            StartCoroutine(BotDestroyed());
 
             //Destroy(sensor.GetNearestSensedBot());
-            //Destroy(gameObject);
+           // Destroy(gameObject);
 
 
             //audioManager.Play("Death");
