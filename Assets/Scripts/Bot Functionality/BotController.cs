@@ -10,7 +10,7 @@ public class BotController : MonoBehaviour, IHurtResponder
     //private AudioManager audioManager;
     private Rigidbody2D rb;
     public UnityEvent DamageTakenEvent;
-    [SerializeField] private float HP = 1;
+    [SerializeField] private float HP = 10000;
     [SerializeField] private float deathAnimationTime = 0;
     //Set true if this bot should spawn random game objects for each slot
     [SerializeField] private bool startWithRandomBotParts = false;
