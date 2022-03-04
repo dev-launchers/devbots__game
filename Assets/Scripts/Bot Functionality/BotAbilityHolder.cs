@@ -87,7 +87,7 @@ public class BotAbilityHolder : MonoBehaviour
         }
 
         
-        Debug.Log("Cooldown");
+        //Debug.Log("Cooldown");
     }
 
     public void SwitchToReady()
@@ -97,7 +97,7 @@ public class BotAbilityHolder : MonoBehaviour
         animator.SetTrigger(ACTIVE);
         }
 
-        Debug.Log("Ready");
+        //Debug.Log("Ready");
         state = AbilityState.Ready;
     }
 
@@ -106,7 +106,7 @@ public class BotAbilityHolder : MonoBehaviour
         ability.Activate(gameObject);
         state = AbilityState.Active;
         activeTime = ability.activeTime;
-        Debug.Log("Active");
+        //Debug.Log("Active");
 
 
 
