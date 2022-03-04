@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public abstract class BotPart : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public abstract class BotPart : MonoBehaviour
     public abstract void BotPartUpdate();
     abstract public void SetState(State state);
     public BotPartAudio botPartAudio;
+    public bool isRunning;
     //[SerializeField] abstract private bool isRunning;
 
     // These should be protected?
@@ -32,7 +34,8 @@ public abstract class BotPart : MonoBehaviour
         timer = coolDown;
     }
 
-    private void Update() {
+
+private void Update() {
         AdvanceCooldownTimer();
         BotPartUpdate();
     }

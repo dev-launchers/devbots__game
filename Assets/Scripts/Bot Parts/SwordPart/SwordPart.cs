@@ -50,7 +50,7 @@ public class SwordPart : BotPart, IHitResponder
                 rb.AddRelativeForce(appliedForce, ForceMode2D.Impulse);
 
                 // Calling check hit to validate collision
-                hitbox.CheckHit();                               
+                //hitbox.CheckHit();                               
             }
         }
     }

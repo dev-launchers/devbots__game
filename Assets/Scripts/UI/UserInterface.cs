@@ -86,6 +86,14 @@ public class UserInterface : MonoBehaviour
             settingsPanel.SetActive(true);
         }
     }
+public void MainMenuButtonPressed()
+    {
+        Time.timeScale = 1;
+        isPaused = false;
+        //deactivate settingspanel
+        settingsPanel.SetActive(false);
+        SceneHandler.LoadMainMenuScene();
+    }
     /// <summary>
     /// Method used to set the timescale of the game
     /// </summary>
