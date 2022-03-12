@@ -6,11 +6,16 @@ public class Hurtbox : MonoBehaviour
     /* This will  */
 
     [SerializeField] private GameObject owner;
-    [SerializeField] private HurtBoxType hurtBoxType = HurtBoxType.Player; // Get this on Start
+    [SerializeField] private HurtBoxType hurtBoxType; // Get this on Start
 
     // [SerializeField] private STATUS_CONTAINER_SCRIPT statusContainer;
     private void Start()
     {
+	if(transform.parent.gameObject.GetComponent<BotSensor>().IsPlayer())
+	{
+		hurtBoxType = HurtBoxType.Player;
+	}
+	else hurtBoxType=HurtBoxType.Enemy;
         // hurtBoxLayer might need to be changed so that Player, Enemy and Ally Hurtbox Types are allocated correctly
     }
 
@@ -31,7 +36,7 @@ public class Hurtbox : MonoBehaviour
         return false;
     }
 
-    /* This function is called on collision of another hitbox. It will take the hiteffect and the  */
+    /* This function is called on collision of another hitbox.  */
     public void HitResponse(List<HitEffect> effects)
     {
         foreach(HitEffect effect in effects)

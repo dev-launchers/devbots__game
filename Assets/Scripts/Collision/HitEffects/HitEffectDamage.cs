@@ -8,7 +8,7 @@ public class HitEffectDamage : HitEffect
     [SerializeField] private int damage;
     public override void PerformEffect(GameObject hurtBot)
     {
-        base.PerformEffect(hurtBot);
+        //base.PerformEffect(hurtBot);
         hurtBot.GetComponent<BotController>().TakeDamage(damage);
     }
 }

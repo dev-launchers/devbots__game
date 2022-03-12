@@ -62,6 +62,7 @@ MonoBehaviour:
   spriteChangePercentage: 0.3
   redBar: {fileID: 21300000, guid: 4e000dc79d2676649a5043a5e9b1b2d9, type: 3}
   greenBar: {fileID: 21300000, guid: 7cd3bfe4e4de80e4ca6e1252d321b100, type: 3}
+  debug: 1
 --- !u!1 &739190775203446887
 GameObject:
   m_ObjectHideFlags: 0

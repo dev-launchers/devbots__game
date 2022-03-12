@@ -14,7 +14,7 @@ public class GunAbility : BotAbility
 
     public override void Activate(GameObject parent)
     {
-        Debug.Log("Shoot");
+       // Debug.Log("Shoot");
 
         // This is pretty ugly, TO-DO cache the sensor
         BotSensor sensor = parent.transform.parent.transform.parent.GetComponent<BotSensor>();

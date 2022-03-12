@@ -81,7 +81,7 @@ public class BotAbilityHolder : MonoBehaviour
     {
         coolDownTime = ability.coolDownTime;
         state = AbilityState.Cooldown;
-        if(animator != null)
+        if(hasAnimation)
         {
         animator.SetTrigger(COOLDOWN);
         }
@@ -92,7 +92,7 @@ public class BotAbilityHolder : MonoBehaviour
 
     public void SwitchToReady()
     {
-        if(animator != null)
+        if(hasAnimation)
         {
         animator.SetTrigger(ACTIVE);
         }

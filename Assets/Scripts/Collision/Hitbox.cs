@@ -23,7 +23,7 @@ public class Hitbox : MonoBehaviour
         if (hurtbox == null) hurtbox = collision.gameObject.GetComponent<Hurtbox>();// in case the hurtbox is not on the child.
         if (hurtbox == null) return;
         
-        //Debug.Log("Successfull hit on" + collider.name);
+        Debug.Log("Successfull hit on" + collider.name);
         hurtbox.CheckHit(collider, hurtMask, effects);
         canHit = false;
         Invoke(nameof(ResetHit),timeBetweenCollisions);
