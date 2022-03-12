@@ -3418,8 +3418,6 @@ MonoBehaviour:
   slotPosition: 0
   options:
   - {fileID: 4299799854100627088, guid: 8333fe67a832c6b43a69cdc70e74e93a, type: 3}
-  - {fileID: 6785531181590155661, guid: 707d52d15db31aa4680d171e2dd018c1, type: 3}
-  - {fileID: 3298103172171777943, guid: 5403df04015128e448b261b01d6a32d8, type: 3}
 --- !u!1 &1605588758
 GameObject:
   m_ObjectHideFlags: 0

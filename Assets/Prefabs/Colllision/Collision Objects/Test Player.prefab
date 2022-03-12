@@ -51,7 +51,8 @@ MonoBehaviour:
   hurtMask: 2
   radius: 5
   effects:
-  - {fileID: 11400000, guid: 1269748d1e9c5dd48a5ade22f511ec07, type: 2}
+  - {fileID: 11400000, guid: f56e9bd88b49b124cab427e002f35636, type: 2}
+  timeBetweenCollisions: 0
 --- !u!61 &8882949705732635071
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -167,8 +168,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 580058117
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7,
     type: 3}

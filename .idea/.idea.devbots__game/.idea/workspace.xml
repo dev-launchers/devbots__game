@@ -2,36 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eed4f246-e10e-4789-b1d2-2df40b755a2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.devbots__game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.devbots__game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy Health Bar Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy Health Bar Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Health Bar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Health Bar.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotAbilityHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotAbilityHolder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Colllision/Collision Objects/Test Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Colllision/Collision Objects/Test Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Colllision/Hit Effects/DamageTest.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Colllision/Hit Effects/DamageTest.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combat.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combat.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/GunAbility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/GunAbility.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/Audio.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/Audio/BotAudioManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/Audio/BotAudioManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/Audio/BotPartAudio.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/Audio/BotPartAudio.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/Audio/MUSIC_SCRIPT_INSTRUCTIONS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/Audio/MUSIC_SCRIPT_INSTRUCTIONS.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/Audio/MusicScriptableObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/Audio/MusicScriptableObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/Audio/PartScriptableObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/Audio/PartScriptableObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/Audio/ReactiveAudioScriptableObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/Audio/ReactiveAudioScriptableObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/Audio/SoundProducer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/Audio/SoundProducer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/Audio/SoundScriptableObjectScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/Audio/SoundScriptableObjectScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/BotPart.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/BotPart.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/Sound.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/Sound.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/State.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Class &amp; Interface/State.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Collision/HitEffects/HitEffectDamage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Collision/HitEffects/HitEffectDamage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Collision/Hitbox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Collision/Hitbox.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Collision/Hurtbox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Collision/Hurtbox.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,6 +130,7 @@
       <workItem from="1646403526492" duration="1000" />
       <workItem from="1647000435523" duration="1000" />
       <workItem from="1647000569156" duration="1000" />
+      <workItem from="1647103663775" duration="115000" />
     </task>
     <servers />
   </component>

@@ -18,10 +18,13 @@ public class GunAbility : BotAbility
 
         // This is pretty ugly, TO-DO cache the sensor
         BotSensor sensor = parent.transform.parent.transform.parent.GetComponent<BotSensor>();
+	BotController controller=parent.transform.parent.transform.parent.GetComponent<BotController>();
         int enemyDirection = sensor.GetNearestSensedBotDirection();
 
         Transform shootPos =parent.GetComponent<GunPosition>().shootPosition;
         GameObject projectileInstance = Instantiate(projectile, shootPos.position, Quaternion.identity);
+	
+	projectileInstance.GetComponentInChildren<Hitbox>().SetMask(controller.ReturnOpponentMask());
 
         Projectile projectileGO = projectileInstance.GetComponent<Projectile>();
         projectileGO.SetValues(enemyDirection, damage, speed, projectileSize, sensor.GetEnemyLayer());
