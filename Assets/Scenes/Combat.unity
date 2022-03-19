@@ -245,6 +245,26 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4572897943993945596, guid: f5bf71bb695d90b4fb924d8a95a76d21,
+        type: 3}
+      propertyPath: hurtBoxType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803837761002279098, guid: f5bf71bb695d90b4fb924d8a95a76d21,
+        type: 3}
+      propertyPath: HP
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803837761002279098, guid: f5bf71bb695d90b4fb924d8a95a76d21,
+        type: 3}
+      propertyPath: ownMask
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803837761002279098, guid: f5bf71bb695d90b4fb924d8a95a76d21,
+        type: 3}
+      propertyPath: opponentMask
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4803837761002279098, guid: f5bf71bb695d90b4fb924d8a95a76d21,
         type: 3}
       propertyPath: availableBotPartsData

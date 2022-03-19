@@ -18,6 +18,8 @@ public class BotController : MonoBehaviour, IHurtResponder
     [SerializeField] private AvailableBotPartsData availableBotPartsData = default(AvailableBotPartsData);
     //class used to locate and change slots and the botparts which are on each slot
     public Slots slots;
+    [SerializeField]HurtboxMask  ownMask;
+    [SerializeField]HurtboxMask  opponentMask;
     //bool used to determine whether this bot has already been created
     public static bool created = false;
 
@@ -227,5 +229,14 @@ public class BotController : MonoBehaviour, IHurtResponder
     public void Response(HitData hitData)
     {
         Debug.Log(this.gameObject + " lost " + hitData.damage + " health!");
+    }
+
+    public HurtboxMask ReturnOpponentMask()
+    {
+	return opponentMask;
+    }
+    public HurtboxMask ReturnOwnMask()
+    {
+	return ownMask;
     }
 }

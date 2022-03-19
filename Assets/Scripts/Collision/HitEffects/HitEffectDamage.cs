@@ -5,10 +5,11 @@ using UnityEngine;
 
 public class HitEffectDamage : HitEffect
 {
-    [SerializeField] private int damage;
+    [SerializeField] private float damage;
     public override void PerformEffect(GameObject hurtBot)
     {
-        base.PerformEffect(hurtBot);
-        hurtBot.GetComponent<BotController>().TakeDamage(damage);
+        //base.PerformEffect(hurtBot);
+        Debug.Log("Damage has been done");
+	hurtBot.GetComponent<BotController>().TakeDamage(damage);
     }
 }

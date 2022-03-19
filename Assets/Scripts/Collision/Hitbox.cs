@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[RequireComponent( typeof(Rigidbody2D), typeof(BoxCollider2D) )]
+[RequireComponent( typeof(Rigidbody2D), typeof(Collider2D) )]
 
 public class Hitbox : MonoBehaviour
 {
@@ -12,21 +12,26 @@ public class Hitbox : MonoBehaviour
     [SerializeField] private float radius = 0;
     [SerializeField] private List<HitEffect> effects;
     [SerializeField] private float timeBetweenCollisions;
+    [Tooltip("Does the object need to disappear after collision? Like a bomb or bullet")]
+    [SerializeField] private bool destroyObjectOnCollision;
     private bool canHit=true;
 
     // [SerializeField] private hitEffects<> hitEffects;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (!canHit) return;
-        Debug.Log("Collided");
+        //Debug.Log("Collided");
         Hurtbox hurtbox = collision.gameObject.GetComponentInChildren<Hurtbox>();
         if (hurtbox == null) hurtbox = collision.gameObject.GetComponent<Hurtbox>();// in case the hurtbox is not on the child.
         if (hurtbox == null) return;
         
-        Debug.Log("Successfull hit on" + collider.name);
-        hurtbox.CheckHit(collider, hurtMask, effects);
-        canHit = false;
-        Invoke(nameof(ResetHit),timeBetweenCollisions);
+        //Debug.Log("hit on" + hurtbox.gameObject.name);
+        if(hurtbox.CheckHit(collider, hurtMask, effects))
+	{        
+		canHit = false;
+        	Invoke(nameof(ResetHit),timeBetweenCollisions);
+		if(destroyObjectOnCollision)Destroy(owner);
+	}
     }
 
     private void ResetHit()//we turn off can Hit for a period of time to prevent multiple collisions in a succession of frames
@@ -37,6 +42,10 @@ public class Hitbox : MonoBehaviour
     private void CheckHit()
     {
         Physics2D.OverlapCircleAll(collider.transform.position, radius);
+    }	
+    public void SetMask(HurtboxMask  mask)
+    {
+	hurtMask=mask;
     }
     
     

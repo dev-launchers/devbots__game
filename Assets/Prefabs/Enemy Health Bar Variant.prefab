@@ -117,6 +117,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy Health Bar Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 945634598126042981, guid: 8e80c966695dc2a40b2952597ad47f54,
+        type: 3}
+      propertyPath: debug
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6922420938950684718, guid: 8e80c966695dc2a40b2952597ad47f54,
         type: 3}
       propertyPath: m_Text

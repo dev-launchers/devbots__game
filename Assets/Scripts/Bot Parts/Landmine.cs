@@ -30,7 +30,7 @@ public class Landmine : MonoBehaviour
     }
 
     // TO-DO make the landmine stick to surfaces
-    private void OnCollisionEnter2D(Collision2D collision)
+   /* private void OnCollisionEnter2D(Collision2D collision)
     {
 
         // Stick to surface
@@ -53,11 +53,11 @@ public class Landmine : MonoBehaviour
             //Destroy landmine if hit by an enemy
             Destroy(gameObject);
         }
-    }
-
+    }*/
+   /*
     private void OnDestroy()
     {
         // release all the children gameobjects
         transform.DetachChildren();
-    }
+    }*/
 }

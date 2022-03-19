@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eed4f246-e10e-4789-b1d2-2df40b755a2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.devbots__game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.devbots__game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sachin_Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sachin_Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotAbilityHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotAbilityHolder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Colllision/Collision Objects/Test Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Colllision/Collision Objects/Test Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Colllision/Hit Effects/DamageTest.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Colllision/Hit Effects/DamageTest.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combat.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combat.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu Scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Collision/HitEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Collision/HitEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/GunAbility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/GunAbility.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Collision/HitEffects/HitEffectDamage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Collision/HitEffects/HitEffectDamage.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Collision/Hitbox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Collision/Hitbox.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Collision/Hurtbox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Collision/Hurtbox.cs" afterDir="false" />
     </list>
@@ -22,14 +25,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/WheelAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/TeleportAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/DrillAbility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Bot Actions/MoveAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/GunAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/TeslaAbility.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Additions/GunPosition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Bot Actions/MoveAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/BotAbilityHolder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Bot Actions/AttackAbility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Additions/GunPosition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bot Functionality/Specific Abilities/DashAbility.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -124,6 +126,11 @@
       <workItem from="1639839316338" duration="1873000" />
       <workItem from="1643122777703" duration="857000" />
       <workItem from="1644078469024" duration="2737000" />
+      <workItem from="1646402554013" duration="1000" />
+      <workItem from="1646403526492" duration="1000" />
+      <workItem from="1647000435523" duration="1000" />
+      <workItem from="1647000569156" duration="1000" />
+      <workItem from="1647103663775" duration="115000" />
     </task>
     <servers />
   </component>
