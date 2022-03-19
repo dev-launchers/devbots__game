@@ -24,7 +24,7 @@ public class BotController : MonoBehaviour, IHurtResponder
     public static bool created = false;
 
     private List<Bot_Hurtbox> m_hurtboxes = new List<Bot_Hurtbox>(); // If there are multiple hurtboxese per sprite, place this script in the most parent bot object.
-
+    private static BotController instance;
     //Get this bot's current HP
     public float GetGetHP()
     {
@@ -50,12 +50,23 @@ public class BotController : MonoBehaviour, IHurtResponder
     public void Start()
     {
         sensor = GetComponent<BotSensor>();
-        if (!created && sensor.IsPlayer())
-        {
+        if (sensor.IsPlayer())
+        {//destroy gameobject if instance of this already exist
+            if (instance != null && instance != this)
+            {
+                Destroy(gameObject);
+            }
+            else
+            {
+                instance = this; 
+                DontDestroyOnLoad(this);
+            }
             //if this bot hasn't been created add it to dontdestroy on load
-            DontDestroyOnLoad(this);
-            created = true;
+ 
+          //  created = true;
+
         }
+   
 
         rb = GetComponent<Rigidbody2D>();
         if (DamageTakenEvent == null)
@@ -106,7 +117,8 @@ public class BotController : MonoBehaviour, IHurtResponder
                 case "Settings Scene":
                 case "Victory Scene":
                 case "Lose Scene":
-                    gameObject.SetActive(false);
+                      gameObject.SetActive(false);
+                 //   Destroy(gameObject);
                     break;
 
             }
@@ -174,10 +186,10 @@ public class BotController : MonoBehaviour, IHurtResponder
 
             //start botdestroyed coroutine when bot reaches zero health
             /* Commneted out to test collision */
-            //StartCoroutine(BotDestroyed());
+            StartCoroutine(BotDestroyed());
 
             //Destroy(sensor.GetNearestSensedBot());
-            //Destroy(gameObject);
+           // Destroy(gameObject);
 
 
             //audioManager.Play("Death");

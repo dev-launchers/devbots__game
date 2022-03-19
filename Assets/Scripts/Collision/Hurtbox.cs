@@ -24,6 +24,7 @@ public class Hurtbox : MonoBehaviour
         //Debug.Log("Checking for hitmask match in " + this.name);
         if (enemyHurtMask == (HurtboxMask)hurtBoxType)
         {
+
             foreach (HitEffect e in effects)
             {
                 e.PerformEffect(transform.parent.gameObject);//this assume the hurtbox is a child of the bot which has a bot controller
