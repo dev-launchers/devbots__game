@@ -15,11 +15,13 @@ public class RigidBodyMoveWithParent : MonoBehaviour
 		rigid=GetComponent<Rigidbody2D>();
 	}
         private void FixedUpdate() {
-            Vector2 newPos = new Vector2();
-            var parentPos = transform.parent.GetComponent<Rigidbody2D>().position;
-            rigid.position = parentPos;
+        Vector3 parentPos;
+
+        if (transform.parent.GetComponent<Rigidbody2D>()) parentPos = transform.parent.GetComponent<Rigidbody2D>().position;
+        else parentPos = transform.parent.transform.position;    
+        rigid.position = parentPos;
            
-           // rigid.MovePosition(newPos);
+           
         }
 
 }
